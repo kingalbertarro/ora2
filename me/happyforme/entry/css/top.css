@@ -150,7 +150,7 @@
     line-height: 26px;
     text-align: left;
   }
-  .steps .step-wrap a {
+  .steps .step-wrap a.tw-btn {
     background-color: #58a3da;
     background-image: url(../images/icn_tw.png);
     background-position: 25% center;
