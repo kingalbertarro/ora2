@@ -651,7 +651,7 @@
   #main { }
   .amazon { padding: 38px 9px 38px 9px; width: 95%; }
   .steps { padding: 38px 9px 38px 9px; width: 95%; }
-  .description p { width: 80%; }
+  .description p { margin:  0 auto; width: 80%; }
   .video-list { width: 95%; }
   .terms { border: 1px solid #ccc; width: 95%; }
 }
