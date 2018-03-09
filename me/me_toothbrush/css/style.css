@@ -1,0 +1,95 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+.imgList01 li {
+	padding: 0 30px 18px;
+}
+.box02 img {
+	margin-bottom: 0;
+}
+.boxList01 div {
+	padding: 20px 0;
+}
+.box02 .btnList {
+	padding-top: 20px;
+}
+@media all and (max-width: 767px) {
+	.boxList01 .boxLeft {
+		margin-right: -5px; 
+	}
+	.boxList01 .boxLeft ul {
+		margin-right: 5px;
+	}
+	.users05 {
+	    padding: 16vw 1vw 1vw 24vw;
+	}
+	.users04 {
+		padding: 20vw 1vw 1vw 20vw;
+	}
+	.users03 {
+		padding: 17vw 1vw 1vw 26vw;
+	}
+	.users01 {
+		padding: 11.6vw 1vw 1vw 18vw;
+	}
+.box02 .txt {
+  font-size: 16px;
+  padding-bottom: 16px;
+  font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+  font-weight: bold;
+}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.box01 {
+		margin-bottom: 35px;
+	}
+	.box02 {
+		padding-bottom: 40px;
+	}
+	.box02 img {
+		max-width: auto;
+	}
+	.boxList01 div {
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+	}
+	.boxList01 div li {
+		padding-top: 20px;
+	}
+	.boxList01 .boxLeft {
+		padding-right: 7px;
+	}
+	.boxList01 .boxRight {
+		padding-left: 7px;
+	}
+	.users01 {
+		padding: 55px 20px 1px 49px;
+	}
+	.users02 {
+		padding: 60px 20px 1px 49px;
+	}
+	.users03 {
+		padding: 60px 20px 1px 60px;
+	}
+	
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 83px;
+	}
+}
+@media all and (min-width: 605px) and (max-width: 670px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 60px;
+	}
+}
+
+

@@ -1,0 +1,100 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+.box07 {
+	margin: 35px -10px 0;
+	padding: 25px 10px;
+	font-size: 12px;
+}
+.box07 img {
+	margin-bottom: 15px;
+}
+.list05 li {
+	padding-top: 35px;
+}
+.list05 li img {
+	margin-bottom: 15px;
+}
+.list05 li:last-child  img {
+	margin-bottom: 0;
+}
+.usersVoice03 .txt01,
+.usersVoice02 .txt01,
+.usersVoice01 .txt01{
+	padding-top: 7vw;
+}
+.user05 .txt01{
+	padding-top: 5vw;
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.mainBox .boxText {
+		color: #fff;
+	}
+	.mainBox .boxText .tit {
+		border-color: #fff;
+	}
+	.box07 {
+		font-size: 18px;
+		padding: 26px 0;
+		margin: 35px 0 0;
+		text-align: center;
+	}
+	.box07 img {
+		margin-bottom: 20px;
+	}
+	.box07 .font01 {
+		font-size: 12px;
+	}
+	.box07 .font02 {
+		font-size: 14px;
+	}
+	.list05 {
+		max-width: 900px;
+		margin: 0 auto; 
+	}
+	.list05 li {
+		width: 50%;
+		box-sizing: border-box;
+		float: left;
+		padding-right: 50px;
+		text-align: center;
+		font-size: 18px;
+	}
+	.list05 li {
+		padding-left: 20px;
+	}
+	.list05 {
+		padding: 25px 0 30px;
+	}
+	.box02 {
+		padding-bottom: 40px;
+	}
+	.usersVoice01 .txt01 {
+		padding-top: 0;
+	}
+	.usersVoice03 .txt01,
+	.usersVoice02 .txt01{
+		padding-top: 25px;
+	}
+	.user04 .txt01{
+		padding-top: 40px;
+	}
+	.mainInner {
+		align-items: inherit;
+	}
+	.mainInner .boxText {
+		padding-top: 7.8vw;
+	}
+	
+}
+@media all and (max-width: 416px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 65px;
+	}
+}

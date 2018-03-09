@@ -1,0 +1,575 @@
+@charset "utf-8";
+
+.list02 li p {
+  color: #808080;
+  font-size: 14px;
+}
+.list02 li strong {
+  padding-bottom: 15px;
+  display: inline-block;
+  color: #000;
+}
+.list02 li span {
+  color: #00276f;
+  font-family: "Hiragino Mincho Pro";
+}
+.mainVisual .box {
+  background: url(../images/bg_main_sp.png) no-repeat 0 0 /100% auto;
+}
+@media all and (min-width: 767px) {
+  .mainVisual { 
+    background: none;
+  }
+  .mainVisual .box { 
+    background: url(../images/bg_main_pc.png) no-repeat left top /100% auto;
+    
+  }
+  /*.list02 li .txt01 {
+    white-space: nowrap;
+  }*/
+}
+
+/*-------- me common -------- */
+
+.mainBox .img img {
+  width: 100%;
+}
+.mainBox {
+  line-height: 1.6;
+}
+
+@media all and (max-width: 767px) {
+.mainBox .boxText {
+  border-right: 10px solid #5dc2d0;
+  color: #00266e;
+  font-size: 15px;
+  background: #eff9fa;
+  padding: 25px;
+}
+.mainBox .boxText .tit {
+  font-size: 20px;
+  border-bottom: 1px solid #00266e;
+  line-height: 1.3;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+.headTxt {
+  padding: 15px 25px 0;
+  box-sizing: border-box;
+  font-size: 11px;
+}
+.headTxt p {
+  padding-bottom: 15px;
+}
+}
+.headTxt {
+  font-family: "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3";
+}
+.box01 {
+  background: url(../images/bg_01.png) repeat 0 0;
+  text-align: center;
+  padding: 35px 30px;
+  margin: 0 -10px 40px;
+}
+.box01 h2 {
+  width: 151px;
+  margin: 0 auto 35px;
+}
+.box01 .btnLink {
+  padding: 35px 0 0;
+}
+.btnLink {
+  padding: 0 42px;
+}
+.box01 img {
+  max-width: 100%;
+}
+.btnLink a {
+  background: #fff url(../../images/arrow02.png) no-repeat 97% center;
+  border: 1px solid #00276f;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  color: #00276f;
+  padding: 13px 10px 13px 0;
+  box-sizing: border-box;
+}
+.btnList a:hover, .btnLink a:hover {
+  opacity: 0.7;
+}
+.box02 img {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+.box02 {
+  color: #00276f;
+  padding-bottom: 26px;
+}
+.box02 .title {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 16px;
+  font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+  font-weight: bold;
+}
+.box02 .btnList {
+  padding: 40px 20px 0;
+}
+.btnList li {
+  margin-bottom: 14px;
+}
+.btnList a {
+  background: #00276f url(../../images/arrow03.png)no-repeat 97% center;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  padding: 13px 10px 13px 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+}
+.btnList .pink {
+  background-color: #d5005e;
+}
+.box03 {
+  background: url(../images/bg_02.png) repeat 0 0;
+  padding: 35px 0 75px;
+}
+.box03 h2, .box05 h2 {
+  width: 237px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.box03 h2 img, .box05 h2 img {
+  max-width: 100%;
+}
+.usersVoice {
+  font-family: "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3";
+  font-size: 14px;
+}
+.usersVoice01 {
+  background: url(../images/bg_uv01.png)no-repeat center bottom;
+  height: 246px;
+  padding: 50px 20px 1px 70px;
+}
+.usersVoice02 {
+  background: url(../images/bg_uv02.png)no-repeat center bottom;
+  height: 246px;
+  padding: 50px 40px 1px 56px;
+}
+.usersVoice03 {
+  background: url(../images/bg_uv03.png)no-repeat center bottom;
+  height: 246px;
+  padding: 50px 30px 1px 60px;
+}
+.usersVoice01 .txt01 {margin:0 auto;}
+.usersVoice .txt01 span {
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(transparent 40%, #fff497 40%);
+}
+.usersVoice .txt02 {
+  font-size: 12px;
+  margin-top: -5px;
+  text-align: center;
+  padding-right: 40px;
+}
+.usersVoice p img {
+  display: inline;
+  vertical-align: middle;
+}
+.usersVoice .userName {
+  margin: 10px 0 10px 90px;
+}
+.usersVoice .userName img {
+  margin-right: 10px;
+  width: 40px;
+  height: auto;
+}
+.usersVoice .box03 .slider li {
+  width: 330px;
+}
+.slick-dots li button {
+  background: rgba(0,0,0,0.00);
+}
+.box05 {
+  background: #cfedf1;
+  padding: 35px 10px 75px;
+}
+.box05 h2 {
+  text-align: center;
+  /*margin: 25px auto 45px;*/
+}
+.box05 ul#ora2_imageList {
+  margin: 0 auto;
+}
+.box05 li.slick-slide {
+  width: 350px;
+  margin: 0 30px;
+}
+.box05 li.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.box05 li.slick-slide:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+@media all and (max-width: 767px) {
+.usersVoice01, .usersVoice02, .usersVoice03 {
+  height: 60vw;
+  margin: 0 auto;
+  background-size: contain;
+  font-size: 3.2vw;
+  padding: 11.6vw 1vw 1vw 20vw;
+}
+.usersVoice01 p, .usersVoice02 p, .usersVoice03 p {
+  width: 80%;
+}
+.usersVoice .txt01 span {
+  font-size: 4vw;
+}
+.usersVoice .txt02 {
+  font-size: 3vw;
+  margin-top: 0.5vw;
+}
+.usersVoice .userName {
+  margin: 1vw auto 0 30vw;
+  font-size: 3vw;
+}
+.usersVoice .userName img {
+  margin-right: 10px;
+  width: 80px;
+  height: auto;
+}
+.box05 {
+  margin: 0 -10px; 
+  padding: 35px 0 75px;
+}
+.box05 li.slick-slide {
+  margin: 0; 
+  padding: 0;
+}
+.box03 {
+  margin: 0 -10px;
+}
+}
+.slider .img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.slider .txtBox {
+  padding: 0 30px;
+}
+.slider a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 14px;
+}
+.slider a:hover {
+  opacity: 0.7;
+}
+.slider .txtBox .title {
+  font-size: 11px;
+}
+.slider .txtBox .title {
+  display: table;
+}
+.slider .txtBox .txt02 span, .slider .txtBox .txt02 img {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider .txtBox .txt02 img {
+  padding-right: 8px;
+}
+.slider .txtBox .title img {
+  float: left;
+}
+.slider .txtBox .title span {
+  display: inline-block;
+  padding: 15px 0 0 8px;
+}
+.slider .txtBox .txt01 {
+  font-size: 13px;
+  padding: 14px 0;
+}
+.slider .txtBox .txt02 {
+  font-size: 11px;
+  display: table;
+}
+.slider .txtBox .txt02 span, .slider .txtBox .txt02 img {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider .txtBox .txt02 img {
+  padding-right: 8px;
+}
+.box03 .slider .slick-dots {
+  text-align: center;
+}
+.box03 .slider .slick-dots li {
+  width: auto;
+  margin: 0 3px 0;
+  float: none;
+}
+.slick-prev {
+  left: 10px;
+  top: 25%;
+}
+.slick-next {
+  right: 10px;
+  top: 25%;
+  width: 22px;
+}
+.slick-prev, .slick-next {
+  top: auto;
+  bottom: -60px;
+}
+
+
+@media all and (min-width: 768px) {
+.mainBox {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1.6;
+}
+.mainInner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-left: 20px solid #5dc2d0;
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+}
+.mainBox .boxText {
+  background: none;
+  border: none;
+  color: #00266e;
+  font-size: 18px;
+}
+.mainBox .boxText p {
+  margin-left: 55px;
+}
+.mainBox .boxText p small {
+  font-size: 10px;
+}
+.mainBox .boxText .tit {
+  font-size: 32px;
+  border-bottom: 1px solid #00266e;
+  /*padding-top: 6vw;*/
+  line-height: 1.3;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+.headTxt {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 36px 60px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+.headTxt p {
+  padding-bottom: 5px;
+}
+.box01 {
+  padding: 50px 0;
+  margin: 0 0 60px;
+}
+.box01 h2 {
+  width: auto;
+  margin: 0 auto 50px;
+}
+.box01 .btnLink {
+  padding: 60px 0 0;
+  width: 300px;
+  margin: 0 auto;
+}
+.box02 {
+  padding: 0 0 85px;
+}
+.box02 .inner, .box01 .inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.box02 .title {
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 22px;
+}
+.box02 .txt {
+  text-align: center;
+  font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+  font-size: 28px;
+  font-weight: bold;
+}
+.btnList {
+  text-align: center;
+}
+.btnList li {
+  display: inline-block;
+  margin: 0 15px 0;
+}
+.btnList li a {
+  width: 300px;
+}
+.box03 {
+  padding: 40px 0 110px;
+}
+.box03 h2 {
+  width: auto;
+  padding-bottom: 40px;
+}
+.box03 .slider, .box05 .slider {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.box03 .slider li {
+  float: left;
+  width: 330px;
+  margin: 0;
+}
+.box03 .slider li:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+.slider .img {
+  padding-bottom: 15px;
+}
+.slider .txtBox .txt01 {
+  font-size: 14px;
+}
+.slider .txtBox .txt02, .slider .txtBox .title {
+  font-size: 12px;
+}
+.slick-prev {
+  left: -64px;
+  top: 36%;
+}
+.slick-next {
+  right: -64px;
+  top: 44%;
+}
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .slick-prev {
+    left: -20px;
+  }
+  .slick-next {
+    right: -20px;
+  }
+  .box03 {
+    margin: 0 0 10px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1010px) {
+.slick-list {
+  width: 700px;
+  margin: 0 auto;
+}
+.slick-next {
+  right: -10px;
+}
+.slick-prev {
+  left: -10px;
+}
+.slider li {
+  margin: 0 10px;
+}
+.slider .slick-dots {
+  left: 0;
+  margin: 0;
+}
+.box03, .box05 {
+  margin: 0;
+}
+
+.box03 {
+  padding: 50px 10px 130px;
+}
+.inner {
+  padding: 0 20px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 878px) {
+  .mainBox .boxText .tit {
+    font-size: 3.4vw;
+  }
+  .mainBox .boxText p {
+    font-size: 1.8vw;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1100px) {
+  .mainBox.mepaste .boxText .tit {
+    font-size: 2.5vw;
+  }
+  .mainBox .boxText p {
+    font-size: 1.8vw;
+  }
+}
+/*Slick*/
+.slick-prev {
+  background: url(../images/btn_prev02.png) no-repeat 0 0;
+}
+.slick-next {
+  background: url(../images/btn_next02.png) no-repeat 0 0;
+}
+
+.usersVoice02,
+.usersVoice01 {
+}
+.usersVoice03,
+.usersVoice02,
+.usersVoice01 {
+  position: relative;
+}
+.usersVoice03 .txt02,
+.usersVoice02 .txt02,
+.usersVoice01 .txt02 {
+  position: absolute;
+  right: 10px;
+  bottom: 8vw;
+}
+.usersVoice03 .txt02 img,
+.usersVoice02 .txt02 img,
+.usersVoice01 .txt02 img {
+  padding-left: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .usersVoice03 .txt02,
+  .usersVoice02 .txt02,
+  .usersVoice01 .txt02 {
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+  }
+  .usersVoice02,
+  .usersVoice01 {
+    padding-top: 60px;
+  }
+  .pd60 {
+    padding-top: 60px !important;
+  }
+  .pd70 {
+    padding-top: 70px !important;
+  }
+  .pd80 {
+    padding-top: 80px !important;
+  }
+}
+
+.font22{
+  text-align: center;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho Pro"!important;
+  font-size: 22px!important;
+  font-weight: normal!important;
+}

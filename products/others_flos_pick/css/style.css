@@ -1,0 +1,93 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+.usersVoice .txt02 {
+	text-align: left;
+	right: 40px; 
+}
+.usersVoice .txt02 img {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+.user01 {
+  padding-top: 80px;
+  padding-left: 45px;
+}
+@media all and (max-width: 767px) {
+	.usersVoice .txt02 {
+		text-align: left;
+		padding: 0 15vw 0 17vw;
+		bottom: 40px;
+	}
+	.usersVoice .txt02 img {
+		position: absolute;
+		right: 13vw;
+		top: -2vw;
+	}
+	.user05 .txt02,
+	.user03 .txt02 {
+		padding: 0 15vw 0 27vw;
+	}
+	.user05 .txt02 img,
+	.user03 .txt02 img {
+		right: 24vw;
+	}
+  .user01 {
+    padding-top: 19vw;
+    padding-left: 60px;
+  }
+  .user02 {
+    padding: 16vw 1vw 1vw 20vw;
+  }
+  .user03 {
+    padding: 11.6vw 1vw 1vw 27vw;
+  }
+  .user04 {
+    padding: 19vw 1vw 1vw 20vw;
+  }
+  .user05 {
+    padding: 19vw 1vw 1vw 20vw;  }
+
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.user05 .txt02,
+	.user03 .txt02 {
+		right: 90px;
+	}
+	.user05 .txt02 img,
+	.user03 .txt02 img {
+		right: 10px;
+	}
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 83px;
+	}
+}
+
+/** YouTube **/
+.video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+@media all and (min-width: 768px) {
+  .center {
+    width: 680px;
+    margin: 0 auto;
+  }
+}

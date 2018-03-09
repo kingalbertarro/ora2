@@ -1,0 +1,56 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+
+@media all and (max-width: 767px) {
+	.usersVoice01,
+	.usersVoice02 {
+		padding:19vw 10vw 1vw 15vw;
+	}
+	.usersVoice03 {
+		padding:24vw 1vw 1vw 28vw;
+	}
+	.user04 {
+		padding:19vw 1vw 1vw 15vw;
+	}
+	.user02,
+	.user05 {
+		padding:15vw 1vw 1vw 20vw;
+	}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.usersVoice01,
+	.usersVoice02,
+	.usersVoice03 {
+		padding:85px 20px 1px 50px;
+	}
+	.user02 {
+		padding:85px 20px 1px 80px;
+	}
+	.user03 {
+		padding:105px 20px 1px 80px;
+	}
+	.user04 {
+		padding:95px 20px 1px 55px;
+	}
+	.user05 {
+		padding:80px 20px 1px 65px;
+	}
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(3) .txt,
+	.box04 li:nth-child(4) .txt {
+		min-height: 83px;
+	}
+}
+@media all and (min-width: 605px) and (max-width: 670px) {
+	.box04 li:nth-child(3) .txt,
+	.box04 li:nth-child(4) .txt {
+		min-height: 60px;
+	}
+}

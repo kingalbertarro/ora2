@@ -1,0 +1,184 @@
+@charset "utf-8";
+body #main {
+  line-height: 1.6;
+}
+.mainVisual {
+  margin-bottom: 50px;
+}
+.box08 {
+  color: #00276f;
+  font-size: 14px;
+}
+.box08 h2 {
+  font-size: 19px;
+  padding-bottom: 20px;
+}
+.box08 p {
+  padding-bottom: 30px;
+}
+.box09 .imgBox {
+  position: relative;
+  line-height: 1;
+}
+.box09 .txt {
+  padding-bottom: 17px;
+  display: inline-block;
+}
+.box09 .txt small {
+  font-size: 10px;
+  display: block;
+  text-align: right;
+}
+.box09 .txt .title {
+  font-size: 20px;
+  text-align: left;
+}
+.box09 .txt .name {
+  font-size: 12vw;
+  text-align: left;
+}
+.box09 .boxTxt {
+  font-size: 12px;
+  padding: 30px 10px 0;
+}
+.box09 .boxTxt p {
+  padding-bottom: 20px;
+}
+.box09 .boxTxt .title {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.txtLink {
+  text-align: center;
+  padding-top: 30px;
+}
+.txtLink li {
+  display: inline-block;
+}
+.txtLink li a {
+  background: url(../../images/arrow04_sp.png) no-repeat right center;
+  background-size: 21px 6px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 0 28px 0 0;
+  font-size: 6vw;  
+}
+.txtLink li a:hover {
+  opacity: 0.7;
+}
+
+@media all and (max-width: 767px) {
+  .box09 .imgBox img {
+    width: 100%;
+  }
+  .box09 .imgBox {
+    text-align: center;
+  }
+  .txtLink li {
+    float: left;
+  }
+  .txtLink li:last-child {
+    float: right;
+  }
+  .imgList {
+    padding-top: 35px;
+  }
+  .imgList img {
+    width: 100%;
+  }
+  .imgList li:last-child img {
+    width: 49%;
+    float: left;
+  }
+  .imgList li:last-child .last {
+    float: right;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+  .box08 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .box08 h2 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  .box08 p {
+    padding-bottom: 40px;
+  }
+  .box09 .txt {
+    position: absolute;
+    left: 74px;
+    top: 130px;
+    line-height: 1;
+  }
+  .box09 img {
+    max-width: 100%;
+  }
+  .box09 .txt .name {
+    letter-spacing: -3px;
+    font-size: 60px;
+    padding: 0;
+  }
+  .box09 .txt small {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .box09 .txt .title {
+    font-size: 29px;
+  }
+  .box09 .boxTxt {
+    font-size: 15px;
+    padding: 30px 60px 0;
+  }
+  .box09 .boxTxt p {
+    padding-bottom: 30px;
+  }
+  .box09 .boxTxt .title {
+    font-size: 22px;
+  }
+  .txtLink {
+    padding-top: 20px;
+  }
+  .txtLink li {
+    padding: 0 50px;
+  }
+  .txtLink li a {
+    font-size: 24px;
+    background: url(../../images/arrow04_pc.png) no-repeat right center;
+    padding-right: 34px;
+  }
+  .imgList {
+    text-align: center;
+    padding-top: 70px;
+  }
+  .imgList li {
+    display: inline-block;
+  }
+  .imgList li:last-child img{
+    padding-left: 18px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+  .imgList li {
+    width: 47%;
+    box-sizing: border-box;
+  }
+  .imgList li img {
+    max-width: 100%;
+  }
+  .imgList li:last-child {
+    width: 52%;
+  }
+  .imgList li:last-child img{
+    width: 48.9%;
+    box-sizing: border-box;
+    padding-left: 8px;
+  }
+}

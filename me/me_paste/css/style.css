@@ -1,0 +1,46 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+@media all and (max-width: 767px) {
+	.user01,
+	.user02 {
+		padding-top:15vw;
+
+	}
+	.user02 {
+		padding:21vw 1vw 1vw 28vw;
+	}
+	.user03 {
+		padding:15vw 1vw 1vw 24vw;
+	}
+	.user04 {
+		padding:15vw 1vw 1vw 24vw;
+	}
+  .user05 {
+		padding:15vw 1vw 1vw 28vw;
+	}
+	.font22 {
+  text-align: left !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+	}
+}
+
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.user02 {
+		padding: 100px 40px 1px 80px;
+
+	}
+	.user04,
+	.user03 {
+		padding-top: 80px;
+	}
+	.user05 {
+		padding: 60px 40px 1px 80px;
+	}
+}

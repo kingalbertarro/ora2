@@ -1,0 +1,160 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+.travelBox {
+	padding-bottom: 0;
+}
+.travelBox .txt01 {
+	color: #00276f;
+}
+.travelBox h2 {
+	text-align: center;
+	background: url(../images/bg_travel01.jpg) repeat-x 0 0;
+	margin-bottom: 25px;
+}
+.travelBox h2 img {
+	width: 50%;
+}
+.travelBox .inner {
+	padding-top: 0;
+}
+.travelBox .inner p {
+	font-family: "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3";
+	color: #00276f;
+	font-size: 13px;
+}
+.travelBox .inner p span {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+@media all and (max-width: 767px) {
+	.travelBox .txt01 {
+  font-size: 16px;
+  font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+  font-weight: bold;
+	}
+	.travelBox .boxLeft {
+		padding-bottom: 40px;
+	}
+	.travelBox .inner .text {
+		padding-bottom: 20px;
+	}
+	.travelBox .inner ul {
+		padding: 0 20px;
+	}
+	.travelBox .inner p img {
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	.user03 {
+		padding: 11.6vw 1vw 1vw 28vw;
+	}
+	.user05 {
+		padding: 11.6vw 1vw 1vw 34vw
+	}
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 83px;
+	}
+}
+@media all and (min-width: 605px) and (max-width: 670px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 60px;
+	}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	
+	.travelBox {
+		max-width: 1100px;
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+	.travelBox h2 {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.travelBox h2 img {
+		width: 154px;
+	}
+	.travelBox .inner {
+		padding: 50px 68px 0;
+	}
+	.travelBox .txt01 {
+  text-align: center;
+  font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+  font-size: 28px;
+  font-weight: bold;
+	}
+	.travelBox .inner p span {
+		font-size: 16px;
+	}
+	.travelBox .inner div {
+		width: 426px;
+	}
+	.travelBox .inner img {
+		padding-bottom: 10px;
+	}
+	.travelBox .boxRight {
+		float: right;
+	}
+	.travelBox .boxLeft {
+		float: left;
+	}
+	.travelBox .inner .text{
+		padding-left: 9px;
+	}
+	.travelBox .inner ul {
+		padding: 60px 0 0 38px;
+		text-align: left;
+	}
+	.travelBox .inner ul li {
+		margin-bottom: 20px;
+	}
+	.travelBox .inner p span {
+		padding-bottom: 10px;
+	}
+	.usersVoice02 {
+		padding: 60px 40px 1px 40px;
+	}
+	.user04 {
+		padding: 50px 20px 1px 60px;
+	}
+	.user05 {
+		padding: 70px 40px 1px 85px;
+	}
+	.user04 .txt02,
+	.usersVoice02 .txt02 {
+		right: 12px;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 1100px) {
+	.travelBox .inner div {
+		width: 45%;
+		box-sizing: border-box;
+	}
+	.travelBox .inner div img {
+		width: 100%;
+	}
+	.travelBox .inner {
+		padding: 50px 5.6vw; 
+	}
+	.travelBox .inner ul {
+		padding: 60px 0 0;
+		text-align: center;
+		width: 100%;
+	}
+	.btnList li {
+		
+	}
+}

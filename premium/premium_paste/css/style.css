@@ -1,0 +1,84 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+.box06 {
+	background: #f4f4f4;
+	margin: 35px -10px 0;
+	padding: 0 10px 50px;
+}
+.box06 .title02 {
+	text-align: center;
+	font-family: "ヒラギノ角ゴ ProN W6", "HiraKakuProN-W6";
+	font-size: 16px;
+	font-weight: bold;
+	padding: 40px 0 25px;
+}
+.box06 .txt{
+	font-family: "ヒラギノ角ゴ ProN W3", "HiraKakuProN-W3";
+	font-size: 14px;
+	line-height: 1.4;
+}
+.box06 .tit {
+	padding-bottom: 10px;
+} 
+.box06 img {
+	margin-bottom: 10px; 
+}
+.box06 .list04 li {
+	margin-bottom: 50px;
+}
+.box06 .list04 li:last-child {
+	margin-bottom: 0;
+}
+.users04 .txt01 {
+	padding-top: 20px;
+}
+
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.box06 {
+		margin: 55px 0 0 0;
+		padding: 0;
+	}
+	.box06 .title02 {
+		font-size: 28px;
+		padding: 35px 0 40px;
+	}
+	.box06 .tit {
+		font-size: 18px;
+	}
+	.box06 .list04 li {
+		float: left;
+		text-align: left;
+		padding-right: 18px;
+	}
+	.box06 .list04 li:last-child {
+		padding-right: 0;
+	}
+	.box06 .list04 li span {
+		display: block;
+	}
+	.box06 .list04 li .txt {
+		text-align: left;
+	}
+	.box02 {
+		padding-bottom: 40px;
+	}
+	
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.box06 .list04 li {
+		width: 33%;
+		box-sizing: border-box;
+	}
+}
+@media all and (max-width: 416px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 65px;
+	}
+}

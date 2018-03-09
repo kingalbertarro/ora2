@@ -1,0 +1,55 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+@media all and (max-width: 767px) {
+	.usersVoice01,
+	.usersVoice02 {
+		padding:19vw 1vw 1vw 20vw;
+	}
+	.usersVoice03 {
+		padding:19vw 1vw 1vw 28vw;
+	}
+	.user04 {
+		padding:19vw 1vw 1vw 15vw
+	}
+	.user02,
+	.user05 {
+		padding:19vw 1vw 1vw 28vw;
+	}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.usersVoice01,
+	.usersVoice02,
+	.usersVoice03 {
+		padding:80px 20px 1px 60px;
+	}
+	.user02 {
+		padding:95px 20px 1px 80px;
+	}
+	.user04 {
+		padding:95px 20px 1px 55px;
+	}
+	.user05 {
+		padding:95px 20px 1px 65px;
+	}
+	.mainBox .boxText p {
+		margin-left: 122px;
+	}
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 83px;
+	}
+}
+@media all and (min-width: 605px) and (max-width: 670px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 60px;
+	}
+}

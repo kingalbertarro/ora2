@@ -1,0 +1,373 @@
+@charset "utf-8";
+html{
+  min-height: 100%;
+  height: 100%;
+}
+body{
+  height: 100%;
+  position: relative;
+}
+header{
+  overflow: hidden;
+}
+header div{
+  overflow: hidden;
+  /*min-width: 1440px;*/
+  margin: 0 auto;
+  padding: 16px 0;
+}
+header h1{
+  float: left;
+  margin: 0 0 0 123px;
+}
+header h2{
+  float: right;
+  margin: 21px 82px 0 0;
+}
+
+#contents{
+  background-image: url(../../images/bg_index_pc.jpg);
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: calc(100% - 89px - 38px);
+  min-height: 672px;
+  height: calc(100% - 89px - 38px);
+  /*min-width: 1440px;*/
+  padding: 0 0 58px;
+  position: relative;
+}
+#contents .wrapper{
+  padding: 51px 0 0;
+  width: auto;
+  margin: auto;
+}
+
+dl.acord{
+  width: 412px;
+  margin: 0 auto;
+  border: 4px solid #000;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px #333;
+  position: relative;
+  z-index: 20;
+}
+dl.acord dt{
+  text-align: left;
+  background-color: #fff;
+  background-image: url(../../images/icon_arrow_down.png),url(../../images/bg_acord.png);
+  background-position: right 54px center,bottom;
+  background-repeat: no-repeat,repeat-x;
+  background-size: 27px, auto;
+  padding: 19px 0 17px 64px;
+  margin: 0;
+  cursor: pointer;
+}
+dl.acord dt.on{
+  background-image: url(../../images/icon_arrow_up.png);
+}
+dl.acord dd{
+  background-color: #fff;
+  margin: 0;
+  padding: 1px 17px 17px;
+  position: relative;
+}
+dl.acord dd > img{
+  width: 100%;
+  height: auto;
+}
+@-webkit-keyframes my-fade-in {
+  0% {
+    opacity: 0;
+  }
+	30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes my-fade-in {
+  0% {
+    opacity: 0;
+  }
+	30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+dl.acord dd ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+	opacity: 1;
+	animation-name:my-fade-in;
+  animation-duration: 2s;
+}
+dl.acord dd ul.is-show {
+  opacity: 1;
+}
+dl.acord dd ul li{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+dl.acord dd ul li:nth-of-type(1){
+  top: 98px;
+  right: 35px;
+  width: 60px;
+}
+dl.acord dd ul li:nth-of-type(2){
+  top: 100px;
+  left: 79px;
+  width: 65px;
+}
+dl.acord dd ul li:nth-of-type(3){
+  top: 191px;
+  left:187px;
+  width: 73px;
+}
+dl.acord dd ul li:nth-of-type(4){
+  top: 261px;
+  left:47px;
+  width: 80px;
+}
+dl.acord dd ul li:nth-of-type(5){
+  top: 316px;
+  left:55px;
+  width: 80px;
+}
+dl.acord dd ul li:nth-of-type(6){
+  top: 347px;
+  left:70px;
+  width: 90px;
+}
+dl.acord dd ul li img{
+  width: 100%;
+  height: auto;
+}
+
+p#beauty{
+  position: absolute;
+  bottom: 66px;
+  right: 75px;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+footer{
+  font-size: 12px;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 0 13px;
+  /*min-width: 1440px;*/
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+}
+footer a{
+  color: #fff;
+}
+footer ul{
+  text-align: center;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li{
+  display: inline-block;
+  font-size: 12px;
+}
+footer ul li:first-of-type{
+  margin: 0 20px 0 0;
+}
+footer small{
+  font-size: 13px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+header div{
+  /*width: 1024px;*/
+  min-width: inherit;
+}
+#contents{
+  min-height: calc(100% - 89px - 38px);
+  min-width: inherit;
+  width: 100%;
+  padding: 0 0 20px;
+  height: auto;
+}
+footer{
+  /*min-width: 1024px;*/
+	position: static;
+}
+.wrapper{
+  width: auto;
+  margin: 0 auto;
+}
+  p#beauty{
+    width: 286px;
+  }
+  p#beauty img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media screen and (max-width: 768px) {
+.pc_non{
+  display: block;
+}
+.sp_non{
+  display: none;
+}
+header div{
+  width: auto;
+  margin: 0 auto;
+  padding: 0 0 6px;
+}
+header h1{
+  margin: 6px 0 0 17px;
+  width: 54px;
+}
+header h2{
+  margin: 15px 12px 0 0;
+  width: 85px;
+}
+header img{
+width: 100%;
+height: auto;
+}
+
+#contents{
+  background-image: url(../../images/bg_index_sp.jpg);
+  background-position: center 0;
+	background-size: cover;
+  min-height: calc(100% - 41px - 44px);
+  padding: 0 0 32%;
+}
+#contents .wrapper{
+  padding: 13.73% 0 0;
+}
+
+dl.acord{
+  width: 78.4%;
+  border: 3px solid #000;
+}
+dl.acord dt{
+  background-position: right 13.715% center,bottom;
+  background-size: 6.6%, auto;
+  padding: 4.6875% 0 3.82% 15.97%;
+}
+dl.acord dt img{
+  width: 73.14%;
+}
+dl.acord dd{
+  background-color: #fff;
+  margin: 0;
+  padding: 1px 4.17% 4.34%;
+  position: relative;
+}
+dl.acord dd ul li:nth-of-type(1){
+  top: 20.3%;
+  right: 8.68%;
+  width: 15.28%;
+}
+dl.acord dd ul li:nth-of-type(2){
+  top: 20.83%;
+  left: 19.79%;
+  width: 16.32%;
+}
+dl.acord dd ul li:nth-of-type(3){
+  top: 39.4%;
+  left:46.18%;
+  width: 18.23%;
+}
+dl.acord dd ul li:nth-of-type(4){
+  top: 53.93%;
+  left:11.63%;
+  width: 20.14%;
+}
+dl.acord dd ul li:nth-of-type(5){
+  top: 64.47%;
+  left:12.9%;
+  width: 19.96%;
+}
+dl.acord dd ul li:nth-of-type(6){
+  top: 71.28%;
+  left:17.1875%;
+  width: 22.4%;
+}
+
+p#beauty{
+    width: 62%;
+    right: 4.8%;
+  bottom:3.47%;
+  }
+
+footer{
+  font-size: 13px;
+  color: #fff;
+  padding: 7px 0;
+  min-width: inherit;
+  width: 100%;
+}
+footer a{
+  color: #fff;
+}
+footer ul li{
+  display: block;
+  font-size: 13px;
+}
+footer ul li:first-of-type{
+  margin: 0 0 4px 0;
+}
+footer small{
+  font-size: 13px;
+}
+}
+@media screen and (max-width: 414px) {
+#contents{
+  min-height: calc(100% - 40px - 37px);
+  padding: 0 0 32%;
+}
+
+dl.acord dd ul li:nth-of-type(4){
+  top: 52.93%;
+}
+dl.acord dd ul li:nth-of-type(6){
+  top: 70.28%;
+}
+
+footer ul li{
+  font-size: 9px;
+}
+footer small{
+  font-size: 9px;
+}
+}
+@media screen and (max-width: 375px) {
+
+}
+@media screen and (max-width: 320px) {
+#contents{
+  
+}
+}

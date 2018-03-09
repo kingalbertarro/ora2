@@ -1,0 +1,46 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+@media all and (max-width: 767px) {
+	.users01 {
+		padding: 18.6vw 1vw 1vw 20vw;
+	}
+	.users03 {
+		padding: 18.6vw 1vw 1vw 23vw;
+	}
+	.users05 {
+		padding: 18.6vw 1vw 1vw 23vw;
+	}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	
+	.users01 {
+		padding-top: 80px;
+	}
+	.users03 {
+		padding: 75px 30px 1px 45px;
+	}
+	.users05 {
+		padding: 85px 30px 1px 95px
+	}
+	.mainBox .boxText p {
+		margin-left: 60px;
+	}
+}
+@media all and (max-width: 420px) {
+	.box04 li:nth-child(4) .txt,
+	.box04 li:nth-child(3) .txt {
+		min-height: 84px;
+	}
+}
+@media all and (min-width: 605px) and (max-width: 670px) {
+	.box04 li:nth-child(3) .txt,
+	.box04 li:nth-child(4) .txt {
+		min-height: 60px;
+	}
+}

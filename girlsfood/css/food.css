@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* Layout SP */
+@media all and (max-width: 767px) {
+  .visual img {
+    width: 100%;
+  }
+}
+/* Layout PC */
+@media all and (min-width: 768px) {
+  .visual {
+    text-align: center;
+  }
+  .list02 li {
+    padding-bottom: 0;
+  }
+}

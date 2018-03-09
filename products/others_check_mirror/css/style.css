@@ -1,0 +1,39 @@
+@charset "utf-8";
+body #main {
+	line-height: 1.6;
+}
+@media all and (max-width: 767px) {
+	.usersVoice01 {
+		padding: 16vw 10vw 1vw 17vw;
+	}
+	.user02 {
+		padding: 20vw 10vw 1vw 25vw;
+	}
+	.user03 {
+		padding: 18vw 10vw 1vw 25vw;
+	}
+	.user04 {
+		padding-left: 23vw;
+	}
+	.user05 {
+		padding-top: 22vw;
+	}
+}
+@media all and (min-width: 768px) {
+	#content {
+	  width: 100%;
+	  padding: 0 0 50px;
+	}
+	.usersVoice .txt01 {
+		padding-top: 20px;
+	}
+	.mainBox .boxText p {
+		margin-left: 132px;
+	}
+}
+@media all and (max-width: 399px) {
+	.box04 li:nth-child(1) .txt,
+	.box04 li:nth-child(2) .txt {
+		min-height: 83px;
+	}
+}
