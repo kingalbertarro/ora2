@@ -539,7 +539,7 @@
     margin: 0 auto 15px;
     width: 65%;
 }
-.description p { font-size: 14px; margin: 0 auto; line-height: 23px; width: 90%; }
+.description p { font-size: 16px; margin: 0 auto; line-height: 26px; width: 90%; }
 .description p strong { display: block; font-size: 22px; line-height: 32px; margin-bottom: 24px; }
 .video-list { margin: 40px auto; width: 90%; }
 .video-list .video-wrapper { padding: 0 0 40px; margin: 0 0 40px 0; }
