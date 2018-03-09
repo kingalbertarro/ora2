@@ -77,7 +77,9 @@
   }
   .amazon figure img { width: 100%; }
   .amazon .info {
+    float: left;
     margin-top: 10px;
+    width: 580px;
   }
   .amazon .info p {
     color: #00276f;
