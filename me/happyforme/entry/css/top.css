@@ -194,7 +194,6 @@
     width: 100%;
   }
   .description h2 {
-    display: block;
     margin: 0 auto 25px;
     width: 306px;
   }
@@ -557,17 +556,19 @@
     line-height: 23px;
     text-align: left;
   }
-
-.description h2 {
+  .steps .step-wrap a.btn-tw { background-position: 20% center; padding: 18px 0 18px 40px; }
+  .description { padding: 22.5px 0 30px; }
+  .description:before, .description:after  { background-color: transparent; }
+  .description h2 {
     display: block;
     margin: 0 auto 15px;
     width: 65%;
-}
+  }
 .description p { font-size: 16px; margin: 0 auto; line-height: 26px; width: 90%; }
 .description p strong { display: block; font-size: 22px; line-height: 32px; margin-bottom: 24px; }
 .video-list { margin: 40px auto; width: 90%; }
 .video-list .video-wrapper { padding: 0 0 40px; margin: 0 0 40px 0; }
-.video-list .video-wrapper h3.main-title { font-size: 18px; line-height: 18px; }
+.video-list .video-wrapper h3.main-title { font-size: 16px; line-height: 16px; }
 .video-list .video-wrapper h3.main-title:before { background-image: url(../images/icn_heart_sp.png); background-size: 100%; background-repeat: no-repeat; top: 2px; }
 .video-list .video-wrapper h4.title { font-size: 14px; line-height: 28px; margin: 8px 0 10px; }
 .video-list .video-wrapper .video-frame {
@@ -578,7 +579,8 @@
 .video-list .video-wrapper .empathy .empathy-title { margin-bottom: 14px; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 100%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
-    width: 20%;
+  padding-right: 10px;
+  width: 20%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
     font-size: 10px;
@@ -589,6 +591,7 @@
     line-height: 14px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
+  padding-left: 10px;
     width: 20%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span {
