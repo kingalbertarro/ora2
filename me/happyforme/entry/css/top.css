@@ -73,13 +73,11 @@
   }
   .amazon figure {
     float: left;
-    width: 355px;
+    width: 35.791%;
   }
   .amazon figure img { width: 100%; }
   .amazon .info {
-    float: left;
     margin-top: 10px;
-    width: 580px;
   }
   .amazon .info p {
     color: #00276f;
@@ -91,9 +89,10 @@
   }
   .amazon .info {
     display: block;
-    marign
+    float: left;
     overflow: hidden;
     padding: 0;
+    width: 64%;
   }
   .amazon .info .text03 {
     display: block;
@@ -180,12 +179,12 @@
     height: 2px;
     left: 0;
     position: absolute;
-    top: 7px;
+    top: 8px;
     width: 100%;
   }
   .description:after {
     background-color: #fff;
-    bottom: 7px;
+    bottom: 8px;
     content: '';
     display: block;
     height: 2px;
@@ -228,8 +227,8 @@
     font-weight: normal;
     color: #da607c;
     display: inline-block;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 20px;
     margin: 0 0 0 36px;
     padding: 8px 9px 6px;
     position: relative;
@@ -564,12 +563,13 @@
     margin: 0 auto 15px;
     width: 65%;
   }
+
 .description p { font-size: 16px; margin: 0 auto; line-height: 26px; width: 90%; }
 .description p strong { display: block; font-size: 22px; line-height: 32px; margin-bottom: 24px; }
 .video-list { margin: 40px auto; width: 90%; }
 .video-list .video-wrapper { padding: 0 0 40px; margin: 0 0 40px 0; }
-.video-list .video-wrapper h3.main-title { font-size: 16px; line-height: 16px; }
-.video-list .video-wrapper h3.main-title:before { background-image: url(../images/icn_heart_sp.png); background-size: 100%; background-repeat: no-repeat; top: 2px; }
+.video-list .video-wrapper h3.main-title { font-size: 15px; line-height: 15px; margin: 0 0 0 28px; padding: 6px 9px 4px;}
+.video-list .video-wrapper h3.main-title:before { background-image: url(../images/icn_heart_sp.png); background-size: 100%; background-repeat: no-repeat; left: -28px; top: 2px; width: 22px; }
 .video-list .video-wrapper h4.title { font-size: 14px; line-height: 28px; margin: 8px 0 10px; }
 .video-list .video-wrapper .video-frame {
     display: block;
@@ -579,7 +579,7 @@
 .video-list .video-wrapper .empathy .empathy-title { margin-bottom: 14px; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 100%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
-  padding-right: 10px;
+  padding-right: 5px;
   width: 20%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
@@ -591,15 +591,16 @@
     line-height: 14px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
-  padding-left: 10px;
+  padding-left: 5px;
     width: 20%;
 }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span.percent, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span.percent { font-size: 12px; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span {
     font-size: 10px;
     line-height: 10px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike strong { font-size: 14px; line-height: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 20px; margin-top: 5tppx; width: 60%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 18px; margin-top: 6px; width: 60%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge span { height: 26px; }
 .video-list .video-wrapper .how-about { margin: 20px auto 0; width: 100%; }
 .video-list .video-wrapper .how-about .how-about--title { margin-bottom: 15px; }

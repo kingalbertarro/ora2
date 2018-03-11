@@ -281,11 +281,15 @@
   }
   .amazon figure {
     float: left;
-    width: 355px;
+    width: 35.791%;
   }
   .amazon figure img { width: 100%; }
   .amazon .info {
-    margin-top: 10px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 64%;
   }
   .amazon .info p {
     color: #00276f;
