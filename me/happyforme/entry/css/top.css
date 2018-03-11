@@ -272,7 +272,7 @@
   .video-list .video-wrapper .empathy .empathy-gauge--wrap {
     margin: 0 auto;
     overflow: hidden;
-    width: 675px;
+    width: 100%;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
     display: block;
@@ -281,9 +281,8 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
     color: #da607c;
-    margin-right: 32px;
     text-align: center;
-    width: auto;
+    width: 92px;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
     display: block;
@@ -305,7 +304,7 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
     color: #5dc2a5;
-    margin-left: 32px;
+    width: 108px;
     text-align: center;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span {
@@ -326,7 +325,7 @@
     height: 30px;
     margin-top: 6px;
     overflow: hidden;
-    width: 70%;
+    width: 500px;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge span {
     background-color: #fa8d9e;
