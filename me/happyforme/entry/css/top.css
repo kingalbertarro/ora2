@@ -220,6 +220,7 @@
   .video-list .video-wrapper h3.main-title {
     border-bottom: 2px solid #da607c;
     border-top: 2px solid #da607c;
+      font-family: "Hiragino Kaku Gothic ProN";
     color: #da607c;
     display: inline-block;
     font-size: 22px;
@@ -274,6 +275,7 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
     display: block;
+    font-family: "Hiragino Kaku Gothic ProN";
     float: left;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
@@ -288,7 +290,6 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span.percent, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span.percent {
     display: inline;
-    font-family: "Hiragino Kaku Gothic ProN";
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like strong {
     display: block;
@@ -316,7 +317,7 @@
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge {
     background-color: #5dc2a5;
     height: 30px;
-    margin-top: 12px;
+    margin-top: 6px;
     overflow: hidden;
     width: 70%;
   }
