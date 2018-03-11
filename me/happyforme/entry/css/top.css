@@ -281,7 +281,9 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
     color: #da607c;
-    width: 12%;
+    margin-right: 32px;
+    text-align: center;
+    width: auto;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
     display: block;
@@ -303,7 +305,7 @@
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
     color: #5dc2a5;
-    width: 18%;
+    margin-left: 32px;
     text-align: center;
   }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span {
@@ -665,7 +667,7 @@
   .amazon { padding: 38px 9px 38px 9px; width: 95%; }
   .steps { padding: 38px 9px 38px 9px; width: 95%; }
   .description p { margin:  0 auto; width: 80%; }
-  .video-list { width: 95%; }
+  .video-list { }
   .terms { border: 1px solid #ccc; width: 95%; }
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {
