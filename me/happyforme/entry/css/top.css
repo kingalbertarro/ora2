@@ -243,6 +243,7 @@
   .video-list .video-wrapper h4.title {
     color: #00276f;
     font-size: 16px;
+    font-weight: normal;
     line-height: 16px;
     margin: 20px 0 18px;
   }
@@ -586,7 +587,7 @@
     line-height: 10px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike strong { font-size: 14px; line-height: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 20px; margin-top: 5px; width: 60%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 20px; margin-top: 5tppx; width: 60%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge span { height: 26px; }
 .video-list .video-wrapper .how-about { margin: 20px auto 0; width: 100%; }
 .video-list .video-wrapper .how-about .how-about--title { margin-bottom: 15px; }

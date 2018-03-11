@@ -246,7 +246,7 @@
     background-image: url(../images/bg.png);
     padding: 59px 0 53px;
   }
-  .campaign .title {  display: block; margin: 0 auto 30px; width: 303px; }
+  .campaign .title {  display: block; margin: 0 auto 30px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }
   .campaign .text01 { display: block; margin:  0 auto 24px; width: 381px; }
   .campaign .figure01 { display: block; margin: 0 auto 11px; width: 186px; }
@@ -306,19 +306,19 @@
   .media .title {
     display: block;
     margin: 0 auto;
-    width: 303px;
+    width: 301px;
   }
   .media .tvcm-desc {
     color: #00276f;
     display: block;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
     margin: 50px auto 0;
     text-align: center;
     width: 575px;
   }
   .media .vid-gal {
-    margin-top: -43px;
+    margin-top: 0px;
   }
   .media .vid-gal .video-wrapper {
     background-image: url(../images/bg_02.png);
@@ -328,7 +328,7 @@
     display: block;
     height: 618px;
     margin: 0 auto;
-    padding: 79px 0 0;
+    padding: 37px 0 0;
     width: 925px;
   }
   .media .vid-gal .video-wrapper .coming-soon {
@@ -577,16 +577,16 @@
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 13px; }
   .media { padding: 40px 0 0; }
-  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto; text-align: left; width: 90%; }
-  .media .vid-gal { margin-top: -90px; }
+  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 10px; text-align: left; width: 90%; }
+  .media .vid-gal { margin-top: 0px; }
   .media .vid-gal .video-wrapper {
     background-image: url(../images/bg_02_sp.png);
     height: auto;
-    padding: 105px 0 90px;
+    padding: 70px 0 50px;
     width: 100%;
   }
   .media .vid-gal .video-wrapper .coming-soon { width: 80%; }
-  .media .vid-gal .neko { margin: -40px auto 0; width: 60%; }
+  .media .vid-gal .neko { margin: -10px auto 0; width: 60%; }
   .media .ad-info {
     display: block;
     margin: 55px auto 50px;
