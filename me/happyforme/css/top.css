@@ -306,7 +306,7 @@
   .media .title {
     display: block;
     margin: 0 auto;
-    width: 302px;
+    width: 303px;
   }
   .media .tvcm-desc {
     color: #00276f;
@@ -314,7 +314,8 @@
     font-size: 16px;
     line-height: 26px;
     margin: 50px auto 0;
-    width: 475px;
+    text-align: center;
+    width: 575px;
   }
   .media .vid-gal {
     margin-top: -43px;
@@ -576,7 +577,7 @@
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 13px; }
   .media { padding: 40px 0 0; }
-  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto; width: 90%; }
+  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto; text-align: left; width: 90%; }
   .media .vid-gal { margin-top: -90px; }
   .media .vid-gal .video-wrapper {
     background-image: url(../images/bg_02_sp.png);

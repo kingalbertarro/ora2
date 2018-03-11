@@ -220,7 +220,8 @@
   .video-list .video-wrapper h3.main-title {
     border-bottom: 2px solid #da607c;
     border-top: 2px solid #da607c;
-      font-family: "Hiragino Kaku Gothic ProN";
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: normal;
     color: #da607c;
     display: inline-block;
     font-size: 22px;
@@ -242,8 +243,8 @@
   .video-list .video-wrapper h4.title {
     color: #00276f;
     font-size: 16px;
-    line-height: 46px;
-    margin: 0;
+    line-height: 16px;
+    margin: 20px 0 18px;
   }
   .video-list .video-wrapper .video-frame {
     display: block;
