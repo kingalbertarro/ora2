@@ -577,9 +577,10 @@
     width: 100%;
 }
 .video-list .video-wrapper .empathy .empathy-title { margin-bottom: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 100%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 95%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
-  padding-right: 5px;
+  padding-right: 8px;
+  margin-left: -3%;
   width: 20%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
@@ -591,7 +592,7 @@
     line-height: 14px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
-  padding-left: 5px;
+  padding-left: 8px;
     width: 20%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span.percent, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span.percent { font-size: 12px; }

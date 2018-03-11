@@ -578,6 +578,7 @@
   .campaign .figure02-sp { width: 100%; }
   .campaign .text02 { margin: 0 auto 15px; width: 90%; }
   .amazon { margin-top: 20px; padding: 15px; width: 90%; }
+  .amazon .info { width: 100%; }
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 13px; }
   .media { padding: 40px 0 0; }
