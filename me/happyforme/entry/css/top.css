@@ -577,15 +577,15 @@
     width: 100%;
 }
 .video-list .video-wrapper .empathy .empathy-title { margin-bottom: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 95%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 100%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
   padding-right: 8px;
-  margin-left: -3%;
-  width: 20%;
+  text-align: center;
+  width: 14%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like strong {
     font-size: 14px;
@@ -593,15 +593,16 @@
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike {
   padding-left: 8px;
-    width: 20%;
+  text-align: center;
+    width: 21%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span.percent, .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span.percent { font-size: 12px; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike strong { font-size: 14px; line-height: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 18px; margin-top: 6px; width: 60%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 18px; margin-top: 6px; width: 65%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge span { height: 26px; }
 .video-list .video-wrapper .how-about { margin: 20px auto 0; width: 100%; }
 .video-list .video-wrapper .how-about .how-about--title { margin-bottom: 15px; }
