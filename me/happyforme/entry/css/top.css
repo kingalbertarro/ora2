@@ -76,9 +76,7 @@
     width: 35.791%;
   }
   .amazon figure img { width: 100%; }
-  .amazon .info {
-    margin-top: 10px;
-  }
+  .amazon .info { }
   .amazon .info p {
     color: #00276f;
     font-size: 16px;
@@ -224,7 +222,7 @@
     border-bottom: 2px solid #da607c;
     border-top: 2px solid #da607c;
     font-family: "Hiragino Kaku Gothic ProN";
-    font-weight: normal;
+    font-weight: bold;
     color: #da607c;
     display: inline-block;
     font-size: 20px;
@@ -490,6 +488,7 @@
     background: url(../images/btn_prev.png) no-repeat 0 0;
     width: 50px;
     height: 50px; }
+  .campaign { padding: 24px 0 45px; }
   .campaign .text01 { width: 70%; }
   .campaign .figure01 { margin: 0 auto 5px; width: 45%; }
   .campaign .text02 { margin: 0 auto 15px; width: 90%; }
