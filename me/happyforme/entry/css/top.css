@@ -389,7 +389,10 @@
 /* Layout SP */
 @media all and (min-width: 320px) and (max-width: 359px) {
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span { font-size: 10px !important; line-height: 10px !important; }
+  .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like strong { font-size: 12px !important; line-height: 12px !important; }
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span { font-size: 10px !important; line-height: 10px !important; }
+  .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike strong { font-size: 12px !important; line-height: 12px !important; }
+  .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { margin-top: 18px !important; }
 }
 @media (min-width: 320px) and (max-width: 520px){
   .steps .step-wrap:nth-child(2):after {
@@ -582,7 +585,7 @@
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
   padding-right: 5px;
   text-align: center;
-  margin-top: 9px;
+  margin-top: 12px;
   width: 14%;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span {
@@ -604,7 +607,7 @@
     line-height: 12px;
 }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike strong { font-size: 14px; line-height: 14px; }
-.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 18px; margin-top: 15px; width: 72%; }
+.video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge { height: 18px; margin-top: 23px; width: 72%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-gauge span { height: 26px; }
 .video-list .video-wrapper .how-about { margin: 20px auto 0; width: 100%; }
 .video-list .video-wrapper .how-about .how-about--title { margin-bottom: 15px; }
