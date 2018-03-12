@@ -391,6 +391,10 @@
     width: 100%;
   }
 /* Layout SP */
+@media all and (min-width: 320px) and (max-width: 359px) {
+  .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like span { font-size: 10px !important; line-height: 10px !important; }
+  .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-dislike span { font-size: 10px !important; line-height: 10px !important; }
+}
 @media (min-width: 320px) and (max-width: 520px){
   .steps .step-wrap:nth-child(2):after {
     background-image: url(../images/accent-down.png);
