@@ -215,7 +215,7 @@
   .other-prod .other-wrapper .other-info span {
     color: #666;
     display: block;
-    font-family: "Hiragino Kaku Gothic ProN";
+    font-family: "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
     font-size: 14px;
     margin-top: 5px;
     text-align: left;
