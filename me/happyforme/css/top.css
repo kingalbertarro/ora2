@@ -248,8 +248,8 @@
   }
   .campaign .title {  display: block; margin: 0 auto 30px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }
-  .campaign .text01 { display: block; margin:  0 auto 24px; width: 381px; }
-  .campaign .figure01 { display: block; margin: 0 auto 11px; width: 186px; }
+  .campaign .text01 { display: block; margin:  0 auto 17px; width: 381px; }
+  .campaign .figure01 { display: block; margin: 0 auto 25px; width: 186px; }
   .campaign .text02 { display: block; margin: 0 auto 36px; width: 395px; }
   .campaign  a {
     background-color: #da607c;
@@ -569,13 +569,14 @@
     padding: 30px 0;
   }
   .campaign a {
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 16px;
+    line-height: 16px;
   }
   .campaign .title { width: 70%; }
   .campaign .text01 { width: 70%; }
   .campaign .figure01 { margin: 0 auto 5px; width: 45%; }
-  .campaign .figure02-sp { width: 100%; }
+  .campaign .text02 { margin: 0 auto 15px; width: 90%; }
+  .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
   .campaign .text02 { margin: 0 auto 15px; width: 90%; }
   .amazon { margin-top: 20px; padding: 15px; width: 90%; }
   .amazon .info { width: 100%; }
