@@ -276,7 +276,7 @@
     border-radius: 25px;
     overflow: hidden;
     margin: 0 auto;
-    padding: 38px 35px 38px 9px;
+    padding: 38px 9px 38px 9px;
     width: 980px;
   }
   .amazon figure {
@@ -345,13 +345,22 @@
     margin: -60px auto 0;
     width: 294px;
   }
+  .media .ad-info-wrap {
+    background-image: url('../images/bg_03.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+  }
   .media .ad-info {
     display: block;
     margin: 55px auto 0;
     position: relative;
-    width: 100%;
+    width: 691px;
   }
-  .media .ad-info a {
+  .media .ad-info-wrap a {
     background-color: #da607c;
     background-image: url(../images/btn_next_white.png);
     background-position: 95% center;
@@ -709,7 +718,7 @@
   display: block;
   margin: 55px auto 0;
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {
   .list03 #slick02 {
