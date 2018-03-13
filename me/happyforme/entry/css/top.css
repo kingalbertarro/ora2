@@ -688,6 +688,9 @@
   .amazon { padding: 38px 9px 38px 9px; width: 95%; }
   .amazon .info .text03 { width: 80%; }
   .steps { padding: 38px 9px 38px 9px; width: 95%; }
+  .steps .step-wrap a.btn-tw { background-position: 12% center; padding: 15px 0 15px 30px; }
+
+
   .description p { margin:  0 auto; width: 80%; }
   .video-list { }
   .terms { border: 1px solid #ccc; width: 95%; }
