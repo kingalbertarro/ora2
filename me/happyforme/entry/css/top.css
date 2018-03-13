@@ -581,7 +581,7 @@
     margin: 0 auto;
     width: 100%;
 }
-.video-list .video-wrapper .empathy .empathy-title { margin-bottom: 14px; }
+.video-list .video-wrapper .empathy .empathy-title { margin-bottom: 7px; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap { width: 100%; }
 .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like {
   padding-right: 5px;
@@ -686,6 +686,7 @@
 
   #main { }
   .amazon { padding: 38px 9px 38px 9px; width: 95%; }
+  .amazon .info .text03 { width: 80%; }
   .steps { padding: 38px 9px 38px 9px; width: 95%; }
   .description p { margin:  0 auto; width: 80%; }
   .video-list { }
