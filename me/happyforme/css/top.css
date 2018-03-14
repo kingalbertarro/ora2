@@ -329,6 +329,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    cursor: pointer;
     display: block;
     height: 618px;
     margin: 0 auto;
@@ -384,6 +385,68 @@
     width: 300px;
   }
   .media .ad-info a:hover { opacity: .9; }
+  .youtube-wrapper {
+    background: rgba(0,0,0,.9);
+    display: none;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .youtube-wrapper .content {
+    display: block;
+    left: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 75%;
+  }
+  .youtube-wrapper .content .video-frame {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 52.715%;
+    position: relative;
+    width: 100%;
+  }
+  .youtube-wrapper .content .video-frame iframe {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .youtube-wrapper .close-btn {
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: -33px;
+    width: 32px;
+  }
+  .youtube-wrapper .close-btn:hover { opacity: .8; }
+  .youtube-wrapper .close-btn:before, .youtube-wrapper .close-btn:after {
+    position: absolute;
+    left: 15px;
+    content: '';
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+  }
+  .youtube-wrapper .close-btn:before {
+    transform: rotate(45deg);
+  }
+  .youtube-wrapper .close-btn:after {
+    transform: rotate(-45deg);
+  }
 
 /* Layout SP */
 @media all and (max-width: 767px) {
