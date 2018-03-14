@@ -338,8 +338,10 @@
   .media .vid-gal .video-wrapper .coming-soon {
     display: block;
     margin: 0 auto;
+    transition: .3s;
     width: 800px;
   }
+  .media .vid-gal .video-wrapper .coming-soon:hover { opacity: .8; }
   .media .vid-gal .neko {
     display: block;
     margin: -60px auto 0;
