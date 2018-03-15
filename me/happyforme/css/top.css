@@ -246,7 +246,8 @@
     background-image: url(../images/bg.png);
     padding: 59px 0 53px;
   }
-  .campaign .title {  display: block; margin: 0 auto 30px; width: 302px; }
+  .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
+  .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }
   .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
   .campaign .figure01 { display: block; margin: 0 auto 20px; width: 186px; }
@@ -276,12 +277,13 @@
     border-radius: 25px;
     overflow: hidden;
     margin: 0 auto;
-    padding: 38px 9px 38px 9px;
+    padding: 38px 0px 38px 36px;
     width: 980px;
   }
   .amazon figure {
     float: left;
-    width: 35.791%;
+    margin-right: 17px;
+    width: 309px;
   }
   .amazon figure img { width: 100%; }
   .amazon .info {
@@ -289,7 +291,7 @@
     float: left;
     overflow: hidden;
     padding: 0;
-    width: 64%;
+    width: 598px;
   }
   .amazon .info p {
     color: #00276f;
@@ -659,7 +661,8 @@
     font-size: 16px;
     line-height: 16px;
   }
-  .campaign .title { width: 70%; }
+  .campaign .title { margin: 0 auto 18px; width: 70%; }
+  .campaign .figure03 { margin: 0 auto 16px; width: 100%; }
   .campaign .text01 { width: 100%; }
   .campaign .figure01 { margin: 0 auto 5px; width: 32%; }
   .campaign .text02 { margin: 0 auto 15px; width: 100%; }
@@ -667,6 +670,11 @@
   .campaign .text02 { margin: 0 auto 15px; width: 90%; }
   .amazon { border-radius: 10px; margin-top: 20px; padding: 15px; width: 90%; }
   .amazon .info { width: 100%; }
+  .amazon figure {
+    float: none;
+    margin: 0 auto 20px 8%;
+    width: 90%;
+}
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 14px; line-height: 25px; }
   .media { padding: 40px 0 0; }
@@ -769,6 +777,8 @@
   padding: 38px 9px 38px 9px;
   width: 95%;
   }
+  .amazon figure { width: 35%; }
+  .amazon .info { width: 62%; }
   .amazon .info .text03 { width: 80%; }
   .media .vid-gal {
   margin-top: -90px;
