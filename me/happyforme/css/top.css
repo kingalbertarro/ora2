@@ -681,16 +681,16 @@
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 14px; line-height: 25px; }
   .media { padding: 60px 0 40px; }
-  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 10px; text-align: left; width: 90%; }
+  .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 0; text-align: left; width: 80%; }
   .media .vid-gal { margin-top: 0px; }
   .media .vid-gal .video-wrapper {
     background-image: url(../images/bg_02_sp.png);
     height: auto;
-    padding: 70px 0 50px;
+    padding: 70px 0 60px;
     width: 100%;
   }
   .media .vid-gal .video-wrapper .coming-soon { width: 80%; }
-  .media .vid-gal .neko { margin: -10px auto 0; width: 70%; }
+  .media .vid-gal .neko { margin: -10px auto 0 18%; width: 70%; }
   .media .ad-info-wrap { margin-top: -15px; }
   .media .ad-info {
     display: block;
