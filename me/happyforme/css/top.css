@@ -452,6 +452,15 @@
 @media all and (min-width: 320px) and (max-width: 375px) {
   .cover .campaign_neko { width: 134px !important; }
 }
+@media all and (min-width: 600px) and (max-width: 649px) {
+  .cover .campaign_neko { width: 190px !important; }
+}
+@media all and (min-width: 650px) and (max-width: 699px) {
+  .cover .campaign_neko { width: 200px !important; }
+}
+@media all and (min-width: 700px) and (max-width: 767px) {
+  .cover .campaign_neko { width: 250px !important; }
+}
 @media all and (max-width: 767px) {
   #content { padding: 0; }
   .nl-sp { display: block; }
