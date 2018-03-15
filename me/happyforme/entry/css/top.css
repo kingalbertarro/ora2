@@ -495,11 +495,11 @@
   .campaign .figure01 { margin: 0 auto 5px; width: 32%; }
   .campaign .text02 { margin: 0 auto 15px; width: 100%; }
   .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
-  .amazon { padding: 15px; width: 90%; }
+  .amazon { border-radius: 10px; padding: 15px; width: 90%; }
   .amazon .info { width: 100%; }
   .amazon .info .text03 { margin: 15px auto 0; width: 100%; }
-  .amazon .info p { font-size: 13px; }
-  .steps { margin: 19px auto 0; padding: 30px 15px 20px;  width: 90%; }
+  .amazon .info p { font-size: 14px; }
+  .steps { border-radius: 10px; margin: 19px auto 0; padding: 30px 15px 20px;  width: 90%; }
   .steps-title { font-size: 16px; margin-bottom: 20px; }
   .steps .step-wrap {
     float: none;
