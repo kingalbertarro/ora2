@@ -450,7 +450,7 @@
 
 /* Layout SP */
 @media all and (min-width: 320px) and (max-width: 375px) {
-  .cover .campaign_neko { width: 136px; }
+  .cover .campaign_neko { width: 134px !important; }
 }
 @media all and (max-width: 767px) {
   #content { padding: 0; }
