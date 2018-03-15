@@ -62,8 +62,8 @@
   }
   .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
   .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
-  .campaign .figure01 { display: block; margin: 0 auto 20px; width: 186px; }
-  .campaign .text02 { display: block; margin: 0 auto 36px; width: 507px; }
+  .campaign .figure01 { display: block; margin: 0 auto 8px; width: 186px; }
+  .campaign .text02 { display: block; margin: 0 auto 32px; width: 507px; }
   .amazon {
     background-color: #fff;
     border-radius: 25px;
@@ -89,7 +89,7 @@
   .amazon .info {
     display: block;
     float: left;
-    margin-top: -10px;
+    margin-top: -9px;
     overflow: hidden;
     padding: 0;
     width: 598px;
@@ -394,6 +394,8 @@
   }
   .terms .texts h3 {
     font-size: 18px;
+    line-height: 18px;
+    margin: 0 0 34px 0;
   }
   .terms .texts p {
     font-size: 14px;
@@ -509,9 +511,9 @@
   .campaign .figure03 { margin: 0 auto 16px; width: 100%; }
   .campaign .text01 { width: 100%; }
   .campaign .figure01 { margin: 0 auto 5px; width: 32%; }
-  .campaign .text02 { margin: 0 auto 15px; width: 100%; }
+  .campaign .text02 { margin: 0 auto 25px; width: 100%; }
   .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
-  .amazon { border-radius: 10px; padding: 20px 15px; width: 90%; }
+  .amazon { border-radius: 10px; padding: 20px 25px; width: 90%; }
   .amazon .info { width: 100%; }
   .amazon figure {
     float: none;
