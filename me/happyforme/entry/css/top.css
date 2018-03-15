@@ -58,7 +58,7 @@
 
   .campaign {
     background-image: url(../images/bg.png);
-    padding: 38px 0 75px;
+    padding: 44px 0 106px;
   }
   .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
   .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
@@ -78,7 +78,6 @@
     width: 309px;
   }
   .amazon figure img { width: 100%; }
-  .amazon .info { }
   .amazon .info p {
     color: #00276f;
     font-size: 16px;
@@ -90,6 +89,7 @@
   .amazon .info {
     display: block;
     float: left;
+    margin-top: -10px;
     overflow: hidden;
     padding: 0;
     width: 598px;
@@ -103,7 +103,7 @@
     background-color: #fff;
     border-radius: 25px;
     overflow: hidden;
-    margin: 19px auto 0;
+    margin: 29px auto 0;
     padding: 38px 35px 38px 9px;
     width: 980px;
   }
@@ -372,22 +372,35 @@
     background-color: #5dc2a5;
   }
   .terms {
+    background-color: #fff;
     display: block;
     margin: 0 auto;
     position: relative;
     height: 394px;
     width: 800px;
   }
-  .terms textarea {
+  .terms .texts {
     height: 394px;
     left: 0;
     resize: none;
     outline: none;
-    text-align: center;
+    text-align: left;
+    overflow: scroll;
+    padding: 40px 34px;
     position: absolute;
     top: 0;
     width: 100%;
+    border: 1px solid #cecece;
   }
+  .terms .texts h3 {
+    font-size: 18px;
+  }
+  .terms .texts p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+  }
+  .terms .texts p strong { }
 /* Layout SP */
 @media all and (min-width: 320px) and (max-width: 359px) {
   .video-list .video-wrapper .empathy .empathy-gauge--wrap .empathy-like { margin-top: 10px !important; }
@@ -627,7 +640,12 @@
 .video-list .video-wrapper .how-about a.like { margin-right: 5%; }
 .terms { margin-bottom: 30px; height: 200px; width: 90%; }
 .terms textarea { display: block; height: 200px; margin: 0 auto; outline: none; -webkit-appearance: none; width: 100%;}
+.terms .texts { height: 200px; padding: 18px 12px; }
+.terms .texts h3 { font-size: 14px; }
+.terms .texts p { font-size: 10px; line-height: 14px; margin-bottom: 18px; }
 }
+
+
 @media all and (max-width: 450px) {
   .next {
     top: 0.5vw; }

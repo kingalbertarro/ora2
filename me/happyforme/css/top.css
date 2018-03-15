@@ -244,7 +244,7 @@
     top: 4px; }
   .campaign {
     background-image: url(../images/bg.png);
-    padding: 59px 0 53px;
+    padding: 59px 0 79px;
   }
   .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
   .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
@@ -263,7 +263,7 @@
     display: block;
     font-size: 16px;
     line-height: 16px;
-    margin: 32px auto 0;
+    margin: 77px auto 0;
     padding: 20px;
     z-index: 100;
     text-align: center;
@@ -289,6 +289,7 @@
   .amazon .info {
     display: block;
     float: left;
+    margin-top: -10px;
     overflow: hidden;
     padding: 0;
     width: 598px;
@@ -655,20 +656,21 @@
     top: 4px;
   }
   .campaign {
-    padding: 30px 0;
+    padding: 43px 0 40px;
   }
   .campaign a {
     font-size: 16px;
     line-height: 16px;
+    margin: 37.5px auto 0;
+    width: 80%;
   }
   .campaign .title { margin: 0 auto 18px; width: 70%; }
   .campaign .figure03 { margin: 0 auto 16px; width: 100%; }
   .campaign .text01 { width: 100%; }
   .campaign .figure01 { margin: 0 auto 5px; width: 32%; }
-  .campaign .text02 { margin: 0 auto 15px; width: 100%; }
+  .campaign .text02 { margin: 0 auto 25px; width: 100%; }
   .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
-  .campaign .text02 { margin: 0 auto 15px; width: 90%; }
-  .amazon { border-radius: 10px; margin-top: 20px; padding: 15px; width: 90%; }
+  .amazon { border-radius: 10px; padding: 20px 24px; width: 90%; }
   .amazon .info { width: 100%; }
   .amazon figure {
     float: none;
@@ -677,7 +679,7 @@
 }
   .amazon .info .text03-sp { margin-top: 20px; width: 100%;}
   .amazon .info p { font-size: 14px; line-height: 25px; }
-  .media { padding: 40px 0 0; }
+  .media { padding: 60px 0 40px; }
   .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 10px; text-align: left; width: 90%; }
   .media .vid-gal { margin-top: 0px; }
   .media .vid-gal .video-wrapper {
@@ -687,7 +689,7 @@
     width: 100%;
   }
   .media .vid-gal .video-wrapper .coming-soon { width: 80%; }
-  .media .vid-gal .neko { margin: -10px auto 0; width: 60%; }
+  .media .vid-gal .neko { margin: -10px auto 0; width: 70%; }
   .media .ad-info {
     display: block;
     margin: 55px auto 50px;
