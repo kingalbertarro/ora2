@@ -380,12 +380,13 @@
     width: 800px;
   }
   .terms .texts {
+    font-family: "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
     height: 394px;
     left: 0;
     resize: none;
     outline: none;
     text-align: left;
-    overflow: scroll;
+    overflow-y: scroll;
     padding: 40px 34px;
     position: absolute;
     top: 0;
