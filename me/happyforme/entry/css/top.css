@@ -645,7 +645,7 @@
 .terms { margin-bottom: 30px; height: 200px; width: 90%; }
 .terms textarea { display: block; height: 200px; margin: 0 auto; outline: none; -webkit-appearance: none; width: 100%;}
 .terms .texts { height: 200px; padding: 18px 12px; }
-.terms .texts h3 { font-size: 14px; }
+.terms .texts h3 { font-size: 14px; margin: 0 0 20px 0; }
 .terms .texts p { font-size: 10px; line-height: 14px; margin-bottom: 18px; }
 }
 
