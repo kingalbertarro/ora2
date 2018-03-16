@@ -298,7 +298,7 @@
     color: #00276f;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .amazon .info p span.pink {
     color: #da607c;
@@ -682,7 +682,7 @@
     width: 90%;
 }
   .amazon .info .text03-sp { margin-top: 0; width: 100%;}
-  .amazon .info p { font-size: 14px; line-height: 26px; margin-bottom: 15px;}
+  .amazon .info p { font-size: 14px; line-height: 26px; margin-bottom: 17px;}
   .media { padding: 60px 0 40px; }
   .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 0; text-align: left; width: 80%; }
   .media .vid-gal { margin-top: 0px; }
