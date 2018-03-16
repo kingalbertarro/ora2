@@ -62,7 +62,7 @@
     height: 200px;
     position: absolute;
     right: 25px;
-    width: 160px;
+    width: 153px;
     z-index: 100;
   }
   .cover .campaign_neko img { display: block; width: 100%; }
@@ -74,238 +74,77 @@
     font-weight: normal;
     margin-bottom: 30px; }
 
-  .beautiful p {
+  .mouthwash {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 26px 0;
+  }
+  .mouthwash h2 {
+    color: #00276f;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 18px 0;
+  }
+  .mouthwash p {
     color: #00276f;
     font-size: 16px;
-    line-height: 30px;
-    margin-bottom: 20px;
-    text-align: center; }
-
-  .beautiful .beautiful-ora {
-    margin-bottom: 30px;
-    width: 149px; }
-
-  .feat-prod {
-    overflow: hidden; }
-
-  .feat-prod figure {
-    float: left;
-    padding-bottom: 40px;
-    width: 50%; }
-
-  .feat-prod figure h3 {
+    line-height: 16px;
+    margin: 0 0 25px 0;
+  }
+  .mouthwash a.btn {
+    border: 1px solid #00276f;
+    border-radius: 10px;
     color: #00276f;
-    font-size: 22px;
-    font-weight: normal;
-    margin: 35px 0 20px;
-  }
-
-  .feat-prod figure p {
-    color: #00276f;
-    display: block;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0;
-    margin: 0 auto;
-    text-align: left;
-    width: 580px;
-  }
-  .feat-prod figure:nth-child(2) p { width: 500px; }
-
-  .feat-prod figure span {
-    color: #00276f;
-    display: block;
-    font-size: 12px;
-    line-height: 26px;
-    margin: 0 auto;
-    text-align: left;
-    width: 580px;
-  }
-
-  .feat-prod figure .more {
-    color: #00276f;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: -40px;
-    margin-top: 20px;
-    position: relative;
-    text-decoration: none; }
-  .feat-prod figure .more:hover { opacity: .7; }
-  .feat-prod figure .more:after {
-    background-image: url(../images/btn_next_blue.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    display: block;
-    height: 6px;
-    width: 21px;
-    position: absolute;
-    right: -40px;
-    top: 5px;
-  }
-
-  .other-prod {
-    overflow: hidden; }
-
-  .other-prod .other-wrapper {
-    background-color: #f9fdfd;
-    float: left;
-    width: 33.33%; }
-
-  .other-prod .other-wrapper figure {
-    background-color: #e2f4f7;
-    height: 230px;
-    position: relative;
-  }
-  .other-prod .other-wrapper:nth-child(1) figure:after, .other-prod .other-wrapper:nth-child(3) figure:after {
-    background-image: url('../images/chevron_up.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    bottom: 0;
-    content: '';
-    display: block;
-    height: 19px;
-    left: -50px;
-    margin: 0 auto;
-    position: absolute;
-    right: -50px;
-    width: 40px;
-  }
-  .other-prod .other-wrapper:nth-child(2) figure:after {
-    background-image: url('../images/chevron_down.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    content: '';
-    display: block;
-    height: 19px;
-    left: -50px;
-    margin: 0 auto;
-    position: absolute;
-    right: -50px;
-    top: 0;
-    width: 40px;
-  }
-  .other-prod .other-wrapper:nth-child(1) figure img { margin-top: 19px; }
-  .other-prod .other-wrapper:nth-child(2) figure img { margin-top: 27px; }
-  .other-prod .other-wrapper:nth-child(3) figure img { margin-top: 16px; }
-  .other-prod .other-wrapper figure img {
-    width: auto;
-    height: auto;
-  }
-
-  .other-prod .other-wrapper .other-info {
-    display: table;
-    margin: 0 auto;
-    padding: 0;
-  }
-  .other-prod .other-wrapper .other-info .other-content {
-    display: table-cell;
-    height: 230px;
-    padding: 0 25px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  .other-prod .other-wrapper .other-info p {
-    text-align: left;
-    line-height: 26px;
-    color: #00276f;
-  }
-
-  .other-prod .other-wrapper .other-info span {
-    color: #666;
-    display: block;
-    font-family: "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, sans-serif;
-    font-size: 14px;
-    margin-top: 5px;
-    text-align: left;
-  }
-
-  .other-prod .other-wrapper .other-info a {
-    color: #00276f;
-    display: inline-block;
-    font-size: 16px;
-    text-decoration: none;
-    margin-left: -40px;
-    margin-top: 26px;
-    position: relative; }
-  .other-prod .other-wrapper .other-info a:hover { opacity: .7; }
-  .other-prod .other-wrapper .other-info a:after {
-    background-image: url(../images/btn_next_blue.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    display: block;
-    height: 6px;
-    width: 21px;
-    position: absolute;
-    right: -40px;
-    top: 4px; }
-  .campaign {
-    background-image: url(../images/bg.png);
-    padding: 59px 0 79px;
-  }
-  .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
-  .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
-  .campaign .title img { display: block; width: 100%; }
-  .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
-  .campaign .figure01 { display: block; margin: 0 auto 8px; width: 186px; }
-  .campaign .text02 { display: block; margin: 0 auto 32px; width: 507px; }
-  .campaign  a {
-    background-color: #da607c;
-    background-image: url(../images/btn_next_white.png);
-    background-position: 95% center;
-    background-repeat: no-repeat;
-    border-radius: 12px;
-    bottom: 16px;
-    color: #fff;
     display: block;
     font-size: 16px;
     line-height: 16px;
-    margin: 77px auto 0;
-    padding: 20px;
-    z-index: 100;
-    text-align: center;
+    margin: 0 auto;
+    padding: 19px 0;
+    position: relative;
     text-decoration: none;
     width: 300px;
   }
-  .campaign a:hover { opacity: .8; }
-  .media .ad-info a:hover { opacity: .8; }
-  .amazon {
-    background-color: #fff;
-    border-radius: 25px;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 38px 0px 38px 36px;
-    width: 980px;
-  }
-  .amazon figure {
-    float: left;
-    margin-right: 17px;
-    width: 309px;
-  }
-  .amazon figure img { width: 100%; }
-  .amazon .info {
+  .mouthwash .text01 {
     display: block;
-    float: left;
-    margin-top: -9px;
-    overflow: hidden;
-    padding: 0;
-    width: 598px;
+    margin: 68px auto 12px;
+    width: 731px;
   }
-  .amazon .info p {
-    color: #00276f;
+  .mouthwash .figure01 {
+    display: block;
+    margin: 0 auto 20px;
+    width: 578px;
+  }
+  .mouthwash .figure02 {
+    display: block;
+    margin: 58px auto;
+    width: 682px;
+  }
+  .ambassador {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 47px 0 45px;
+  }
+  .one {
+    background-image: url('../images/bg01.png');
+  }
+  .ambassador .wrapper {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 756px;
+  }
+  .ambassador .wrapper span {
+    color: #ec6d81;
+    display: block;
     font-size: 16px;
     line-height: 26px;
   }
-  .amazon .info p span.pink {
-    color: #da607c;
-  }
-  .amazon .info .text03 {
+  .ambassador .wrapper p {
+    color: #00276f;
     display: block;
-    margin: 30px auto 0;
-    width: 489px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .media {
     padding: 58px 0 0;
