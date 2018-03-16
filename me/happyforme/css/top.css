@@ -607,21 +607,23 @@
   .other-prod .other-wrapper:nth-child(3) figure img { margin-top: 15px; width: 54px ;}
   .other-prod .other-wrapper:nth-child(1) figure:after, .other-prod .other-wrapper:nth-child(3) figure:after {
     background-image: url(../images/chevron_right.png);
+    background-size: 100% 100%;
     bottom: auto;
-    height: 53px;
+    height: 26.5px;
     left: auto;
-    top: 40%;
+    top: 47%;
     right: 0px;
-    width: 26px;
+    width: 13px;
   }
   .other-prod .other-wrapper:nth-child(2) figure:after {
     background-image: url(../images/chevron-left.png);
+    background-size: 100% 100%;
     bottom: auto;
-    height: 53px;
+    height: 26.5px;
     left: 0px;
     right: auto;
-    top: 40%;
-    width: 26px;
+    top: 47%;
+    width: 13px;
 }
   .other-prod .other-wrapper figure img {
     display: block;
