@@ -760,19 +760,40 @@
     height: 102px;
     padding-top: 30px; }
 
-  .prev, .prev-two, .prev-three {
-    left: 10%; }
+    .next, .next-two, .next-three {
+      background-color: #fff;
+      background-image: url(../images/btn_next_blue.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 60px;
+      right: -28px;
+      top: 35%;
+    }
 
-  .next, .next-two, .next-three {
-    right: 10%; }
+    .prev, .prev-two, .prev-three  {
+      background-color: #fff;
+      background-image: url(../images/btn_prev_blue.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 60px;
+      left: 30px;
+      top: 35%;
+    }
+
 
   #main { }
   .mouthwash h2 { font-size: 22px; line-height: 22px; }
   .mouthwash p { font-size: 15px; line-height: 15px; }
+  .ambassador .wrapper .slider-wrap  { margin: 0 0 0 0; }
+  .ambassador .wrapper .slider-wrap .slick-slider { width: 100%; }
+  .ambassador .wrapper .slider-wrap .slick-slide { margin: 0 10px; }
+  .ambassador .wrapper .slider-wrap .slick-slide img { display: block; width: 100%; }
   .tvcm .media { height: 940px; margin: -20px auto 0; width: 740px; }
-  .tvcm .media .coming-soon {
-    width: 80%;
-}
+  .tvcm .media .coming-soon { width: 80%; }
+  .ad-info .ad-banner { width: 80%; }
+  .ad-info a.btn { bottom: 10px; }
   .youtube-wrapper .content { width: 85%; }
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {
