@@ -28,7 +28,7 @@
 .list03 li a {
   color: #808080; }
 
-.next {
+.next, .next-two, .next-three {
   background: url(../images/btn_next.png) no-repeat 0 0;
   width: 22px;
   height: 42px;
@@ -41,7 +41,7 @@
   right: -50px;
   top: 50%; }
 
-.prev {
+.prev, .prev-two, .prev-three {
   background: url(../images/btn_prev.png) no-repeat 0 0;
   width: 22px;
   height: 42px;
@@ -55,7 +55,11 @@
   top: 50%; }
 
 .prev:hover,
-.next:hover {
+.prev-two:hover,
+.prev-three:hover,
+.next:hover,
+.next-two:hover,
+.next-three:hover {
   opacity: 0.7; }
   .cover { margin-bottom: 40px; position: relative; }
   .cover .campaign_neko {
@@ -444,7 +448,7 @@
   .list03 li {
     margin: 0 5px; }
 
-  .next {
+  .next, .next-two, .next-three {
     background-color: #fff;
     background-image: url(../images/btn_next_blue.png);
     background-position: center;
@@ -455,7 +459,7 @@
     top: 36%;
   }
 
-  .prev {
+  .prev, .prev-two, .prev-three  {
     background-color: #fff;
     background-image: url(../images/btn_prev_blue.png);
     background-position: center;
@@ -552,11 +556,17 @@
   }
   .ambassador .wrapper .slider-wrap .slick-slider { width: 100%; }
   .ambassador .wrapper .slider-wrap .slick-slide {
-    margin: 0 10px;
+    margin: 0 5px;
     width: 200px;
   }
   .ambassador .wrapper .slider-wrap .slick-slide img {
+    margin-bottom: 12px;
     width: 100%;
+  }
+  .ambassador .wrapper .slider-wrap a p {
+    color: #00276f;
+    font-size: 12px;
+    line-height: 19px;
   }
   .campaign {
     background-image: url(../images/bg03_sp.png);
@@ -720,10 +730,10 @@
     height: 102px;
     padding-top: 30px; }
 
-  .prev {
+  .prev, .prev-two, .prev-three {
     left: 10%; }
 
-  .next {
+  .next, .next-two, .next-three {
     right: 10%; }
 
   #main { }
