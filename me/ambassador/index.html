@@ -21,9 +21,7 @@
   <script src="js/main.js"></script>
   <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" type="text/css" href="css/slick.css">
-  <style>
-    #slick02 .slick-track {transform: none!important;}
-  </style>
+
 
   <!-- Google Tag Manager : Sunstar 総合アナリティクス （本番） -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KQZRDZ"
@@ -34,6 +32,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayerSS','GTM-KQZRDZ');</script>
 <!-- End Google Tag Manager -->
+
+<script type="text/javascript">
+  $(function() {
+  $('#slick').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev'),
+  });
+  $('#slick02').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev'),
+  });
+  $('#slick03').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev'),
+  });
+});
+</script>
 </head>
 <body>
 
@@ -97,12 +139,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="content">
     <section class="ambassador one">
       <div class="wrapper">
-        <h2><img src="images/title01.png" alt=""></h2>
-        <span>
+        <h2 class="title"><img src="images/title01.png" alt=""></h2>
+        <span class="sub-title">
           株式会社エブリー／KALOS編集部の<br>
           “オフィスでマウスウォッシュ”アンバサダー
         </span>
-        <p>
+        <p class="description">
           女性の美にまつわる動画を配信する「エブリー」の「KALOS」編集部。<br>
           メイクやファッションなど撮影が続く毎日は、つい休憩やランチタイムが不規則になりがち。オフィスではぎっしり詰まったスケジュールの合間にさっとケアできるOra² me（オーラツーミー）のマウスウォッシュが大活躍！
         </p>
@@ -110,7 +152,260 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <img src="images/img03" alt="">
           <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
         </figure>
+        <div class="slider-wrap">
+          <div id="slick" class="slider">
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <p>（アンバサダーキット設置の様子）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img06.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img06.png" alt="" />
+                </span>
+                <p>デスクの引き出しに入れておきたい！フレーバーもボトルもピンクがお気に入り♡（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+          </div>
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
       </div>
+    </section>
+
+    <section class="ambassador two">
+      <div class="wrapper">
+        <h2 class="title"><img src="images/title02.png" alt=""></h2>
+        <span class="sub-title">
+          株式会社ウエディングパークの<br>
+          “オフィスでマウスウォッシュ”アンバサダー
+        </span>
+        <p class="description">
+          日本最大級の結婚準備クチコミ情報サイトを運営する「ウェディングパーク」。<br>
+          新規事業の立ち上げや開発など、イキイキと働くお仕事ガールたち。くちもとケアにも余念がない彼女たちは、職場でオーラツーミーのマウスウォッシュを愛用中！
+        </p>
+        <figure class="ooki">
+          <img src="images/img07.png" alt="">
+          <p>日中は、デスクワークも多いお仕事ガール。出社後すぐ＆ランチを食べたあとは“マウスウォッシュ”でくちもとBeautyに♪</p>
+        </figure>
+        <div class="slider-wrap">
+          <div id="slick02" class="slider">
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img08.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img08.png" alt="" />
+                </span>
+                <p>（アンバサダーキット設置の様子）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img09.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img09.png" alt="" />
+                </span>
+                <p>ノンアルコールなので、苦手なピリピリ感がなく長く続けられそう♪（システムエンジニア・27歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img10.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img10.png" alt="" />
+                </span>
+                <p>ランチでコーヒーを飲んだあと、午後からの打ち合わせで人と会うとき、すすいでニオイ＆ステインのもとを洗い流せるのは助かります。（ウェブプロデューサー・27歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+          </div>
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ambassador three">
+      <div class="wrapper">
+        <h2 class="title"><img src="images/title03.png" alt=""></h2>
+        <span class="sub-title">
+          株式会社デイトナ・インターナショナルの<br>
+          “オフィスでマウスウォッシュ”アンバサダー
+        </span>
+        <p class="description">
+          ライフスタイル事業を幅広く行う「デイトナ・インターナショナル」で働く、キャリアなお仕事ガールたち。
+          ときには撮影の合間にランチをとることもあるという彼女たちに重宝されているのが、オフィスに常備されたオーラツーミーのマウスウォッシュ！
+        </p>
+        <figure class="ooki">
+          <img src="images/11.png" alt="">
+          <p>ミーティングで人と会う前には、忘れずにマウスウォッシュ。20秒で、息も笑顔も爽やかに！</p>
+        </figure>
+        <div class="slider-wrap">
+          <div id="slick03" class="slider">
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img12.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img12.png" alt="" />
+                </span>
+                <p>（アンバサダーキット設置の様子）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img13.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img13.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img14.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img14.png" alt="" />
+                </span>
+                <p>デスクの引き出しに入れておきたい！フレーバーもボトルもピンクがお気に入り♡（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+          </div>
+          <div class="prev"></div>
+          <div class="next"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="campaign">
+      <h2 class="title"><img src="images/main_title01.png" alt=""></h2>
+      <img src="images/text02.png" class="text02" alt="">
+      <img src="images/img15.png" class="figure03" alt="">
+      <img src="images/text03.png" class="text03" alt="">
+      <img src="images/img16.png" class="figure04" alt="">
+      <img src="images/text04.png" class="text04" alt="">
+      <p>アンケートに答えて、お仕事ガールにぴったりのオーラツー新商品セットをGETするチャンスも♪</p>
+      <a href="" class="btn">応募はコチラ</a>
+      <p>“オフィスでマウスウォッシュ”アンバサダー事務局へのお問い合わせ</p>
+    </section>
+
+    <section class="tvcm">
+      <h2 class="title"><img src="images/main_title02.png" alt=""></h2>
+      <p class="description">
+        お仕事、歯みがき、お化粧直し。ランチタイム終わりの慌ただしい同僚の中でただ一人、<br>
+        余裕の表情でマウスウォッシュしている小松菜奈さん。<br>
+        忙しいお仕事ガールの心強い味方、「Ora2 me ブレス＆ステインクリア マウスウォッシュ」。<br>
+        ちょっとシュールな忙しさの描写にも、ご注目。<br>
+      </p>
+      <div class="media">
+        <div class="video-wrapper">
+          <div onclick="showVideo()"><img src="images/img17.png" class="coming-soon one" alt="きれいを、私らしく。"></div>
+          <div onclick="showVideo()"><img src="images/img18.png" class="coming-soon two" alt="きれいを、私らしく。"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ad-info">
+      <img src="images/img19.png" class="ad-banner" alt="">
+      <a href="" class="btn">詳しくはコチラ</a>
     </section>
   </div><!--content-->
   <p class="pagetop"><a href="#header"><img src="../../images/pagetop.jpg" alt="" width="50"></a></p>

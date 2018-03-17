@@ -30,27 +30,29 @@
 
 .next {
   background: url(../images/btn_next.png) no-repeat 0 0;
-  width: 50px;
-  height: 50px;
+  width: 22px;
+  height: 42px;
   z-index: 10;
   position: relative;
   cursor: pointer;
   font-size: 0;
   position: absolute;
-  right: 0;
-  top: 20%; }
+  transform: translate(-50%, -50%);
+  right: -50px;
+  top: 50%; }
 
 .prev {
   background: url(../images/btn_prev.png) no-repeat 0 0;
-  width: 50px;
-  height: 50px;
+  width: 22px;
+  height: 42px;
   z-index: 10;
   position: relative;
   cursor: pointer;
   font-size: 0;
   position: absolute;
-  left: 0;
-  top: 20%; }
+  transform: translate(-50%, -50%);
+  left: -50px;
+  top: 50%; }
 
 .prev:hover,
 .next:hover {
@@ -92,6 +94,10 @@
     margin: 0 0 25px 0;
   }
   .mouthwash a.btn {
+    background-color: #fff;
+    background-image: url('../images/btn_next_blue.png');
+    background-position: 95% center;
+    background-repeat: no-repeat;
     border: 1px solid #00276f;
     border-radius: 10px;
     color: #00276f;
@@ -124,110 +130,170 @@
     margin: 0 auto;
     overflow: hidden;
     padding: 47px 0 45px;
+    position: relative;
   }
-  .one {
+  .one, .three {
     background-image: url('../images/bg01.png');
+  }
+  .two {
+    background-image: url('../images/bg02.png');
   }
   .ambassador .wrapper {
     display: block;
     margin: 0 auto;
     padding: 0;
+    position: relative;
     width: 756px;
   }
-  .ambassador .wrapper span {
+  .ambassador .wrapper h2.title {
+    display: block;
+    margin: 0 0 15px;
+  }
+  .ambassador .wrapper span.sub-title {
     color: #ec6d81;
     display: block;
     font-size: 16px;
     line-height: 26px;
+    margin: 0 0 10px;
   }
-  .ambassador .wrapper p {
+  .ambassador .wrapper p.description {
     color: #00276f;
     display: block;
     font-size: 16px;
     line-height: 26px;
   }
-  .media {
-    padding: 58px 0 0;
-  }
-  .media .title {
+  .ambassador .wrapper .ooki {
     display: block;
-    margin: 0 auto;
-    width: 301px;
+    margin: 20px auto 25px;
   }
-  .media .tvcm-desc {
+  .ambassador .wrapper .ooki img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .ambassador .wrapper .ooki p {
     color: #00276f;
     display: block;
     font-size: 16px;
-    line-height: 30px;
-    margin: 45px auto 0;
-    text-align: center;
-    width: 575px;
+    line-height: 26px;
   }
-  .media .vid-gal {
-    margin-top: 0px;
+  .ambassador .wrapper .slider-wrap {
+    display: block;
+    position: relative;
   }
-  .media .vid-gal .video-wrapper {
-    background-image: url(../images/bg_02.png);
-    background-position: center;
-    background-repeat: no-repeat;
+  .ambassador .wrapper .slider-wrap .slick-slider  {
+    width: 756px;
+  }
+  .ambassador .wrapper .slider-wrap .slick-slide {
+    margin: 0 20px 0 0;
+    width: 238px;
+  }
+  .ambassador .wrapper .slider-wrap  {
+    margin: 0 -20px 0 0;
+  }
+  .ambassador .wrapper .slider-wrap a  {
+    text-decoration: none;
+  }
+  .ambassador .wrapper .slider-wrap a p  {
+    color: #00276f;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .campaign {
+    background-image: url('../images/bg03.png');
+    background-position: top center;
     background-size: 100%;
-    cursor: pointer;
     display: block;
-    height: 618px;
-    margin: 0 auto;
-    padding: 37px 0 0;
-    width: 925px;
+    margin: 0;
+    padding: 65px 0 95px;
+    text-align: center;
   }
-  .media .vid-gal .video-wrapper .coming-soon {
+  .campaign .title {
     display: block;
-    margin: 0 auto;
-    transition: .3s;
-    width: 800px;
+    margin: 0 auto 35px;
+    width: 301px;
   }
-  .media .vid-gal .video-wrapper .coming-soon:hover { opacity: .8; }
-  .media .vid-gal .neko {
+  .campaign .text02 {
     display: block;
-    margin: 38px 236px 0 auto;
-    width: 294px;
+    margin: 0 auto 18px;
+    width: 423px;
   }
-  .media .ad-info-wrap {
-    background-image: url('../images/bg_03.png');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  .campaign .figure03 {
     display: block;
-    margin-top: 129px;
-    position: relative;
-    width: 100%;
+    margin: 0 auto 11px;
+    width: 515px;
   }
-  .media .ad-info {
+  .campaign .text03 {
     display: block;
-    margin: 55px auto 0;
-    position: relative;
-    width: 691px;
+    margin: 0 auto 28px;
+    width: 738px;
   }
-  .media .ad-info-wrap a {
-    background-color: #da607c;
-    background-image: url(../images/btn_next_white.png);
+  .campaign .figure04 {
+    display: block;
+    margin: 0 auto 26px;
+    width: 437;
+  }
+  .campaign .text04 {
+    display: block;
+    margin: 0 auto 38px;
+    width: 535px;
+  }
+  .campaign p {
+    color: #00276f;
+    font-size: 16px;
+  }
+  .campaign a.btn {
+    background-color: #db607c;
+    background-image: url('../images/btn_next_white.png');
     background-position: 95% center;
     background-repeat: no-repeat;
-    border-radius: 12px;
-    bottom: 26px;
+    border-radius: 10px;
     color: #fff;
     display: block;
     font-size: 16px;
     line-height: 16px;
-    margin: 0 auto;
-    left: -50px;
-    padding: 20px;
-    position: absolute;
-    right: -50px;
-    z-index: 100;
+    margin: 34px auto 26px;
+    padding: 19px 0;
     text-align: center;
     text-decoration: none;
     width: 300px;
   }
-  .media .ad-info a:hover { opacity: .9; }
+  .campaign a.btn:hover { opacity: .8; }
+  .tvcm {
+    display: block;
+    margin: 0;
+    padding: 75px 0 30px;
+    position: relative;
+  }
+  .tvcm .title {
+    display: block;
+    margin: 0 auto;
+    width: 303px;
+  }
+  .tvcm .description {
+    color: #00276f;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .tvcm .media {
+    background-image: url('../images/bg04.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    height: 1198px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 948px;
+  }
+  .tvcm .media .coming-soon {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+  }
+  .tvcm .media .coming-soon:hover { opacity: .8; }
+  .tvcm .media .one { margin-top: 80px; margin-bottom: 45px;}
   .youtube-wrapper {
     background: rgba(0,0,0,.9);
     display: none;
@@ -290,6 +356,42 @@
   .youtube-wrapper .close-btn:after {
     transform: rotate(-45deg);
   }
+  .ad-info  {
+    background-image: url('../images/bg05.png');
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  .ad-info .ad-banner {
+    display: block;
+    margin: 0 auto;
+    width: 870px;
+  }
+  .ad-info a.btn {
+    background-color: #db607c;
+    background-image: url('../images/btn_next_white.png');
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    bottom: 26px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    left: -50%;
+    line-height: 16px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 19px 0;
+    position: absolute;
+    right: -50%;
+    width: 300px;
+  }
+  .ad-info a.btn:hover { opacity: .8; }
 
 /* Layout SP */
 @media all and (min-width: 320px) and (max-width: 375px) {
@@ -350,13 +452,13 @@
 
   .next {
     background: url(../images/btn_next.png) no-repeat 0 0;
-    width: 50px;
-    height: 50px; }
+    width: 22px;
+    height: 42px; }
 
   .prev {
     background: url(../images/btn_prev.png) no-repeat 0 0;
-    width: 50px;
-    height: 50px;
+    width: 22px;
+    height: 42px;
   }
   .cover { margin-bottom: 20px; }
   .cover .campaign_neko {
@@ -577,12 +679,12 @@
     font-size: 16px;
     margin-left: -400px; }
 
-  .next {
+  /* .next {
     top: 12px; }
 
   .prev {
     top: 12px;
-  }
+  } */
 
 }
 @media all and (min-width: 768px) and (max-width: 1199px) {
