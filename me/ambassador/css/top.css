@@ -68,7 +68,7 @@
     height: 200px;
     position: absolute;
     right: 25px;
-    width: 156  px;
+    width: 156px;
     z-index: 100;
   }
   .cover .campaign_neko img { display: block; width: 100%; }
@@ -217,6 +217,7 @@
     margin: 0 auto 35px;
     width: 301px;
   }
+  .campaign .title img { display: block; width: 100%; }
   .campaign .text02 {
     display: block;
     margin: 0 auto 18px;
@@ -274,6 +275,7 @@
     margin: 0 auto ;
     width: 303px;
   }
+  .tvcm .title img { display: block; width: 100%; }
   .tvcm .description {
     color: #00276f;
     font-size: 16px;
@@ -531,19 +533,19 @@
   .ambassador .wrapper { width: 100%; }
   .ambassador .wrapper h2.title {
     margin: 0 auto 21px;
-    width: 95%;
+    width: 90%;
   }
   .ambassador .wrapper span.sub-title {
     font-size: 15px;
     line-height: 25px;
-    margin: 0 auto 25px;
-    width: 95%;
+    margin: 0 auto 20px;
+    width: 90%;
   }
   .ambassador .wrapper p.description {
     font-size: 13px;
     line-height: 22px;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
   }
   .ambassador .wrapper .ooki {
     display: block;
@@ -557,7 +559,7 @@
     font-size: 14px;
     line-height: 19px;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
   }
   .ambassador .wrapper .slider-wrap  {
     margin: 0 0 0 0;
@@ -745,42 +747,12 @@
     right: 10%; }
 
   #main { }
-  .feat-prod figure p { letter-spacing: 0; width: 90%; }
-  .feat-prod figure:nth-child(2) p { width: 90%; }
-  .feat-prod figure span { padding: 0; width: 90%; }
-  .amazon {
-  padding: 38px 9px 38px 9px;
-  width: 95%;
-  }
-  .amazon figure { width: 35%; }
-  .amazon .info { width: 62%; }
-  .amazon .info .text03 { width: 80%; }
-  .media .vid-gal {
-  margin-top: -90px;
-  }
-  .media .vid-gal .video-wrapper {
-  background-image: url(../images/bg_02.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: block;
-  height: 618px;
-  margin: 0 auto;
-  padding: 120px 0 0;
-  width: 750px;
-  }
-  .media .vid-gal .video-wrapper .coming-soon {
-  display: block;
-  margin: 0 auto;
-  width: 85%;
-  }
-  .media .vid-gal .neko { margin: 38px 190px 0 auto; }
-  .media .ad-info {
-  display: block;
-  margin: 55px auto 0;
-  position: relative;
-  width: 90%;
-  }
+  .mouthwash h2 { font-size: 22px; line-height: 22px; }
+  .mouthwash p { font-size: 15px; line-height: 15px; }
+  .tvcm .media { margin: -20px auto 0; width: 95%; }
+  .tvcm .media .coming-soon {
+    width: 88%;
+}
   .youtube-wrapper .content { width: 85%; }
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {
