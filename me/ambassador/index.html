@@ -506,7 +506,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </section>
 
 
-    <section class="campaign">
+    <section id="campaign" class="campaign">
       <h2 class="title"><img src="images/main_title01.png" alt=""></h2>
       <img src="images/text02.png" class="text02 pcOnly" alt="">
       <img src="images/text02_sp.png" class="text02 spOnly" alt="">
@@ -534,7 +534,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="media">
         <div class="video-wrapper">
           <div onclick="showVideo()"><img src="images/img17.png" class="coming-soon one" alt="きれいを、私らしく。"></div>
-          <div onclick="showVideo()"><img src="images/img18.png" class="coming-soon two" alt="きれいを、私らしく。"></div>
+          <div onclick="showVideoTwo()"><img src="images/img18.png" class="coming-soon two" alt="きれいを、私らしく。"></div>
         </div>
       </div>
     </section>
@@ -602,9 +602,14 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
 var player;
+var playerTwo;
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
-    videoId: 'qXFm8ZFEA-0',
+    videoId: 'XeITwsot0IY',
+    playerVars: {rel: 0},
+  });
+  playerTwo = new YT.Player('playerTwo', {
+    videoId: 'QESpT05OI4o',
     playerVars: {rel: 0},
   });
 }
@@ -614,11 +619,21 @@ function showVideo() {
   $(".youtube-wrapper").css('display','block');
   player.playVideo();
  }
+ function showVideoTwo() {
+   $('html, body').css('overflow', 'hidden');
+   $(".youtube-wrapper").css('display','block');
+   playerTwo.playVideo();
+  }
 
 function hideVideo() {
   $('html, body').css('overflow', 'auto');
   $(".youtube-wrapper").css('display','none');
   player.stopVideo();
+}
+function hideVideoTwo() {
+  $('html, body').css('overflow', 'auto');
+  $(".youtube-wrapper").css('display','none');
+  playerTwo.stopVideo();
 }
 
 </script>
