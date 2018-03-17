@@ -82,6 +82,7 @@
   .mouthwash h2 {
     color: #00276f;
     font-size: 25px;
+    font-weight: normal;
     line-height: 25px;
     margin: 0 0 18px 0;
   }
@@ -93,7 +94,6 @@
   }
   .mouthwash a.btn {
     background-color: #fff;
-    background-image: url('../images/btn_next_blue.png');
     background-position: 95% center;
     background-repeat: no-repeat;
     border: 1px solid #00276f;
@@ -108,6 +108,8 @@
     text-decoration: none;
     width: 300px;
   }
+  .mouthwash a.more {  background-image: url('../images/btn_next_blue.png'); }
+  .mouthwash a.goto {  background-image: url('../images/btn_down.png'); }
   .mouthwash .text01 {
     display: block;
     margin: 68px auto 12px;
@@ -120,7 +122,7 @@
   }
   .mouthwash .figure02 {
     display: block;
-    margin: 58px auto;
+    margin: 58px auto 0;
     width: 682px;
   }
   .ambassador {
