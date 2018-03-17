@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       dots: false,
       variableWidth: true,
       nextArrow: $('.next'),
-      prevArrow: $('.prev'),
+      prevArrow: $('.prev')
   });
   $('#slick02').slick({
       slidesToShow: 3,
@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       dots: false,
       variableWidth: true,
       nextArrow: $('.next'),
-      prevArrow: $('.prev'),
+      prevArrow: $('.prev')
   });
   $('#slick03').slick({
       slidesToShow: 3,
@@ -72,7 +72,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       dots: false,
       variableWidth: true,
       nextArrow: $('.next'),
-      prevArrow: $('.prev'),
+      prevArrow: $('.prev')
+  });
+
+  $('#slick01-sp').slick({
+      centerMode: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev')
+  });
+  $('#slick02-sp').slick({
+      centerMode: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev')
+  });
+  $('#slick03-sp').slick({
+      centerMode: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplay: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+       // cssEase: 'linear',
+      dots: false,
+      variableWidth: true,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev')
   });
 });
 </script>
@@ -121,17 +164,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </a>
   <figure>
     <img src="images/banner.png" class="pcOnly" alt="新シリーズ、誕生。">
-    <img src="images/bannerSp.png" class="spOnly" alt="新シリーズ、誕生。">
+    <img src="images/banner_sp.png" class="spOnly" alt="新シリーズ、誕生。">
   </figure>
 </div>
 <section class="mouthwash">
-  <h2>お口のニオイ&ステインのもとを、すみずみまですっきりクリアに！</h2>
-  <p>オーラツーミー ブレス&ステインクリア マウスウォッシュ（洗口液）</p>
+  <h2><span class="nl-sp">お口のニオイ&ステインのもとを、</span>すみずみまですっきりクリアに！</h2>
+  <p><span class="nl-sp">オーラツーミー ブレス&ステインクリア</span> マウスウォッシュ（洗口液）</p>
   <a href="" class="btn more">商品について詳しくはコチラ</a>
   <img src="images/text01.png" class="text01 pcOnly" alt="">
+  <img src="images/text01_sp.png" class="text01 spOnly" alt="">
   <img src="images/img01.png" class="figure01 pcOnly" alt="">
+  <img src="images/img01_sp.png" class="figure01 spOnly" alt="">
   <a href="" class="btn goto">今すぐ応募！</a>
   <img src="images/img02.png" class="figure02 pcOnly" alt="">
+  <img src="images/img02_sp.png" class="figure02 spOnly" alt="">
 </section>
 </div><!--visual-->
 
@@ -139,7 +185,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="content">
     <section class="ambassador one">
       <div class="wrapper">
-        <h2 class="title"><img src="images/title01.png" alt=""></h2>
+        <h2 class="title"><img src="images/title01.png" class="pcOnly" alt=""><img src="images/title01.png" class="spOnly" alt=""></h2>
         <span class="sub-title">
           株式会社エブリー／KALOS編集部の<br>
           “オフィスでマウスウォッシュ”アンバサダー
@@ -149,17 +195,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           メイクやファッションなど撮影が続く毎日は、つい休憩やランチタイムが不規則になりがち。オフィスではぎっしり詰まったスケジュールの合間にさっとケアできるOra² me（オーラツーミー）のマウスウォッシュが大活躍！
         </p>
         <figure class="ooki">
-          <img src="images/img03" alt="">
+          <img src="images/img03.png" alt="">
           <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
         </figure>
         <div class="slider-wrap">
-          <div id="slick" class="slider">
+          <div id="slick" class="slider pcOnly">
             <div>
               <a href="#">
                 <span class="pcOnly">
-                  <img src="images/img04.png" alt="" />
-                </span>
-                <span class="spOnly">
                   <img src="images/img04.png" alt="" />
                 </span>
                 <p>（アンバサダーキット設置の様子）</p>
@@ -170,9 +213,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img05.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img05.png" alt="" />
-                </span>
                 <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
               </a>
             </div>
@@ -181,6 +221,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img06.png" alt="" />
                 </span>
+                <p>デスクの引き出しに入れておきたい！フレーバーもボトルもピンクがお気に入り♡（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img20.png" alt="" />
+                </span>
+                <p>コーヒーを飲むことも多いので、ステインのもとをすすいで洗い流せるのはうれしい！ボトルもかわいいね♡</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img21.png" alt="" />
+                </span>
+                <p>20秒でケアできるのが魅力。お口の中をリフレッシュしたい夕方にも使いたいです。（アシスタントディレクター・25歳）</p>
+              </a>
+            </div>
+          </div>
+
+
+          <div id="slick01-sp" class="slider spOnly">
+            <div>
+              <a href="#">
+                <span class="spOnly">
+                  <img src="images/img04.png" alt="" />
+                </span>
+                <p>（アンバサダーキット設置の様子）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
                 <span class="spOnly">
                   <img src="images/img06.png" alt="" />
                 </span>
@@ -189,9 +270,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div>
               <a href="#">
-                <span class="pcOnly">
-                  <img src="images/img04.png" alt="" />
-                </span>
                 <span class="spOnly">
                   <img src="images/img04.png" alt="" />
                 </span>
@@ -200,9 +278,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div>
               <a href="#">
-                <span class="pcOnly">
-                  <img src="images/img05.png" alt="" />
-                </span>
                 <span class="spOnly">
                   <img src="images/img05.png" alt="" />
                 </span>
@@ -238,18 +313,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img08.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img08.png" alt="" />
-                </span>
                 <p>（アンバサダーキット設置の様子）</p>
               </a>
             </div>
             <div>
               <a href="#">
                 <span class="pcOnly">
-                  <img src="images/img09.png" alt="" />
-                </span>
-                <span class="spOnly">
                   <img src="images/img09.png" alt="" />
                 </span>
                 <p>ノンアルコールなので、苦手なピリピリ感がなく長く続けられそう♪（システムエンジニア・27歳）</p>
@@ -260,32 +329,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img10.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img10.png" alt="" />
-                </span>
                 <p>ランチでコーヒーを飲んだあと、午後からの打ち合わせで人と会うとき、すすいでニオイ＆ステインのもとを洗い流せるのは助かります。（ウェブプロデューサー・27歳）</p>
               </a>
             </div>
             <div>
               <a href="#">
                 <span class="pcOnly">
-                  <img src="images/img04.png" alt="" />
+                  <img src="images/img22.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img04.png" alt="" />
-                </span>
-                <p>ランチタイムも忙しいお仕事ガールたち。ちょっとしたすき間時間を使って、オフィスでマウスウォッシュ！</p>
+                <p>20秒すすぐだけの簡単ケアが、忙しいわたし達にはぴったり☆（ウェブディレクター・28歳）</p>
               </a>
             </div>
             <div>
               <a href="#">
                 <span class="pcOnly">
-                  <img src="images/img05.png" alt="" />
+                  <img src="images/img23.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img05.png" alt="" />
-                </span>
-                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+                <p>化粧室のロッカーに常備！歯みがきできないときにも、気軽に時短しながらケアできるところが気に入ってます。（ウェブディレクター・28歳）</p>
               </a>
             </div>
           </div>
@@ -307,7 +367,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ときには撮影の合間にランチをとることもあるという彼女たちに重宝されているのが、オフィスに常備されたオーラツーミーのマウスウォッシュ！
         </p>
         <figure class="ooki">
-          <img src="images/11.png" alt="">
+          <img src="images/img11.png" alt="">
           <p>ミーティングで人と会う前には、忘れずにマウスウォッシュ。20秒で、息も笑顔も爽やかに！</p>
         </figure>
         <div class="slider-wrap">
@@ -315,9 +375,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div>
               <a href="#">
                 <span class="pcOnly">
-                  <img src="images/img12.png" alt="" />
-                </span>
-                <span class="spOnly">
                   <img src="images/img12.png" alt="" />
                 </span>
                 <p>（アンバサダーキット設置の様子）</p>
@@ -328,9 +385,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img13.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img13.png" alt="" />
-                </span>
                 <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
               </a>
             </div>
@@ -339,17 +393,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span class="pcOnly">
                   <img src="images/img14.png" alt="" />
                 </span>
-                <span class="spOnly">
-                  <img src="images/img14.png" alt="" />
-                </span>
                 <p>デスクの引き出しに入れておきたい！フレーバーもボトルもピンクがお気に入り♡（EC営業・24歳）</p>
               </a>
             </div>
             <div>
               <a href="#">
                 <span class="pcOnly">
+                  <img src="images/img24.png" alt="" />
+                </span>
+                <p>ランチ後すぐに撮影に入るタイトな日でも、マウスウォッシュがあれば安心！（ECクリエイティブ・26歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="pcOnly">
+                  <img src="images/img25.png" alt="" />
+                </span>
+                <p>すすいで、ステインのもとを手軽にすっきりクリアにできるのがうれしい。毎日使いたいですね。（プレス・25歳）</p>
+              </a>
+            </div>
+          </div>
+
+          <div id="slick03-sp" class="slider spOnly">
+            <div>
+              <a href="#">
+                <span class="spOnly">
                   <img src="images/img04.png" alt="" />
                 </span>
+                <p>（アンバサダーキット設置の様子）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="spOnly">
+                  <img src="images/img05.png" alt="" />
+                </span>
+                <p>刺激は強くないのに、すっきり感はちゃんとあるのがいいですね。みんなにオススメしたい☆（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <span class="spOnly">
+                  <img src="images/img06.png" alt="" />
+                </span>
+                <p>デスクの引き出しに入れておきたい！フレーバーもボトルもピンクがお気に入り♡（EC営業・24歳）</p>
+              </a>
+            </div>
+            <div>
+              <a href="#">
                 <span class="spOnly">
                   <img src="images/img04.png" alt="" />
                 </span>
@@ -358,9 +449,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             <div>
               <a href="#">
-                <span class="pcOnly">
-                  <img src="images/img05.png" alt="" />
-                </span>
                 <span class="spOnly">
                   <img src="images/img05.png" alt="" />
                 </span>
@@ -377,11 +465,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <section class="campaign">
       <h2 class="title"><img src="images/main_title01.png" alt=""></h2>
-      <img src="images/text02.png" class="text02" alt="">
-      <img src="images/img15.png" class="figure03" alt="">
-      <img src="images/text03.png" class="text03" alt="">
-      <img src="images/img16.png" class="figure04" alt="">
-      <img src="images/text04.png" class="text04" alt="">
+      <img src="images/text02.png" class="text02 pcOnly" alt="">
+      <img src="images/text02_sp.png" class="text02 spOnly" alt="">
+      <img src="images/img15.png" class="figure03 pcOnly" alt="">
+      <img src="images/img15_sp.png" class="figure03 spOnly" alt="">
+      <img src="images/text03.png" class="text03 pcOnly" alt="">
+      <img src="images/text03_sp.png" class="text03 spOnly" alt="">
+      <img src="images/img16.png" class="figure04 pcOnly" alt="">
+      <img src="images/img16_sp.png" class="figure04 spOnly" alt="">
+      <img src="images/text04.png" class="text04 pcOnly" alt="">
+      <img src="images/text04_sp.png" class="text04 spOnly" alt="">
       <p>アンケートに答えて、お仕事ガールにぴったりのオーラツー新商品セットをGETするチャンスも♪</p>
       <a href="" class="btn">応募はコチラ</a>
       <p>“オフィスでマウスウォッシュ”アンバサダー事務局へのお問い合わせ</p>
@@ -404,7 +497,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </section>
 
     <section class="ad-info">
-      <img src="images/img19.png" class="ad-banner" alt="">
+      <img src="images/img19.png" class="ad-banner pcOnly" alt="">
+      <img src="images/img19_sp.png" class="ad-banner spOnly" alt="">
       <a href="" class="btn">詳しくはコチラ</a>
     </section>
   </div><!--content-->
