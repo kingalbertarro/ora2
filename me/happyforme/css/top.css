@@ -246,11 +246,8 @@
     background-image: url(../images/bg.png);
     padding: 59px 0 79px;
   }
-  .slider-wrap {
-    display: block;
-    margin: 0 auto;
-    width: 603px;
-  }
+.slider{	text-align: center;}
+.slider img{    position: relative;}
   .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
   .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }
@@ -287,17 +284,27 @@
   }
   .amazon figure {
     float: left;
-    margin-right: 17px;
-    width: 309px;
+    margin-right: 50px;
+    width: 450px;
   }
-  .amazon figure img { width: 100%; }
+  .amazon figure .text03 {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+  }
+  .amazon figure .text04 {
+    display: block;
+    margin: 0 auto 25px;
+    width: 340px;
+  }
+  .amazon figure img { display: block; margin: 0 auto; }
   .amazon .info {
     display: block;
     float: left;
-    margin-top: -9px;
+    margin-top: 20px;
     overflow: hidden;
     padding: 0;
-    width: 598px;
+    width: 420px;
   }
   .amazon .info p {
     color: #00276f;
@@ -308,11 +315,7 @@
   .amazon .info p span.pink {
     color: #da607c;
   }
-  .amazon .info .text03 {
-    display: block;
-    margin: 0 auto;
-    width: 489px;
-  }
+
   .media {
     padding: 58px 0 0;
   }

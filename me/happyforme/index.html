@@ -21,6 +21,9 @@
   <script src="js/main.js"></script>
   <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <style>
+    #slick02 .slick-track {transform: none!important;}
+  </style>
 
   <!-- Google Tag Manager : Sunstar 統合アナリティクス （本番） -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KQZRDZ"
@@ -157,21 +160,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="content">
     <section id="campaign" class="campaign">
       <h2 class="title"><img src="images/btn_01.png" class="pcOnly" alt="Campaign"><img src="images/btn_01_sp.png" class="spOnly" alt="Campaign"></h2>
-      <div class="slider-wrap">
-        <div id="slider01" class="slider pcOnly">
-          <img src="images/img19a.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19b.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19c.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19d.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19e.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19f.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19g.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19h.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19i.png" class="figure03" alt="このわたし的Happy、あなたには">
-          <img src="images/img19j.png" class="figure03" alt="このわたし的Happy、あなたには">
-        </div>
+      <div class="slider pcOnly">
+        <img src="images/img19a.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19b.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19c.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19d.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19e.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19f.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19g.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19h.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19i.png" class="figure03" alt="このわたし的Happy、あなたには">
+        <img src="images/img19j.png" class="figure03" alt="このわたし的Happy、あなたには">
       </div>
-
       <div class="slider spOnly">
         <img src="images/img19a_sp.png" class="figure03" alt="このわたし的Happy、あなたには">
         <img src="images/img19b_sp.png" class="figure03" alt="このわたし的Happy、あなたには">
@@ -195,12 +195,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <figure>
           <img src="images/text04.png" class="text04 pcOnly" alt="わたし的にHappyの瞬間、アリorナシ？ムービーを観て参加してね！">
           <img src="images/text04_sp.png" class="text04 spOnly" alt="わたし的にHappyの瞬間、アリorナシ？ムービーを観て参加してね！">
+          <img src="images/text03.png" class="text03 pcOnly" alt="抽選で100名様Amazonギフト券1,000円分をプレゼント!(Eメールでお届け)">
+          <img src="images/text03_sp.png" class="text03-sp spOnly" alt="抽選で100名様Amazonギフト券1,000円分をプレゼント!(Eメールでお届け)">
         </figure>
         <div class="info">
           <p>女の子の日常の中には、なにげない“<span class="pink">わたし的Happyな瞬間</span>”がいっぱい！そんな瞬間を切り取って描いたショートムービー集。（原案：夏生さえり）</p>
           <p>あなたが気になるムービーを観て「わかる〜！」「え、全然わかんない‥」といった感想と2つのハッシュタグ「<span class="pink">#happyforme</span>」「<span class="pink">#ora2me</span>」をつけてTwitterに投稿すると、抽選で合計100名様にAmazon ギフト券（Eメールでお届け）1,000円分が当たる！</p>
-          <img src="images/text03.png" class="text03 pcOnly" alt="抽選で100名様Amazonギフト券1,000円分をプレゼント!(Eメールでお届け)">
-          <img src="images/text03_sp.png" class="text03-sp spOnly" alt="抽選で100名様Amazonギフト券1,000円分をプレゼント!(Eメールでお届け)">
         </div>
       </div>
       <a href="entry/">応募はコチラ</a>
@@ -276,22 +276,7 @@ Copyright &copy; 2018 Sunstar Inc. All rights reserved</p>
 </footer>
 
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#slider01').slick({
-      dots: false,
-      arrows: false,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      speed: 500,
-      fade: true,
-      cssEase: 'linear'
-    });
-  });
-</script>
 <script>
-
 
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');

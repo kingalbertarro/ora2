@@ -404,6 +404,18 @@
     line-height: 22px;
     margin-bottom: 25px;
   }
+  .terms .texts p span {
+    display: block;
+    position: relative;
+    padding-left: 1em;
+
+  }
+  .terms .texts p span:before  {
+    content: '・';
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
   .terms .texts p strong { }
 /* Layout SP */
 @media all and (min-width: 320px) and (max-width: 359px) {
