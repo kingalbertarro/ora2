@@ -188,7 +188,6 @@
     margin: 0 20px 0 0;
     width: 238px;
   }
-  .ambassador .wrapper .slider-wrap .slick-slide:hover { opacity: .8; }
   .ambassador .wrapper .slider-wrap .slick-slide img {
     margin-bottom: 10px;
   }
@@ -198,7 +197,7 @@
   .ambassador .wrapper .slider-wrap a  {
     text-decoration: none;
   }
-  .ambassador .wrapper .slider-wrap a p  {
+  .ambassador .wrapper .slider-wrap  {
     color: #00276f;
     font-size: 13px;
     line-height: 22px;
@@ -259,6 +258,8 @@
   .campaign span.contact-sec img {
     margin: 3px 0 0 7px;
   }
+  .campaign a { display: block; text-decoration: none; }
+  .campaign a:hover { opacity: .7; }
   .campaign a.btn {
     background-color: #db607c;
     background-image: url('../images/btn_next_white.png');
@@ -338,7 +339,7 @@
     width: 800px;
   }
   .youtube-wrapper .content .video-frame {
-    display: block;
+    display: none;
     margin: 0 auto;
     padding: 0 0 56.25%;
     position: relative;
@@ -517,6 +518,7 @@
     font-size: 12px;
     line-height: 18px;
     text-align: left;
+    text-decoration: none;
     width: 70%;
   }
   .campaign span.contact-sec img { margin: 5px 0 0 7px; }
@@ -593,7 +595,7 @@
     margin-bottom: 12px;
     width: 100%;
   }
-  .ambassador .wrapper .slider-wrap a p {
+  .ambassador .wrapper .slider-wrap {
     color: #00276f;
     font-size: 12px;
     line-height: 19px;
