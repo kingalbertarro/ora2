@@ -74,10 +74,20 @@
   }
   .amazon figure {
     float: left;
-    margin-right: 17px;
-    width: 309px;
+    margin-right: 50px;
+    width: 450px;
   }
-  .amazon figure img { width: 100%; }
+  .amazon figure .text03 {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+  }
+  .amazon figure .text04 {
+    display: block;
+    margin: 0 auto 25px;
+    width: 340px;
+  }
+  .amazon figure img { display: block; margin: 0 auto; }
   .amazon .info p {
     color: #00276f;
     font-size: 16px;
@@ -90,10 +100,10 @@
   .amazon .info {
     display: block;
     float: left;
-    margin-top: -9px;
+    margin-top: 20px;
     overflow: hidden;
     padding: 0;
-    width: 598px;
+    width: 420px;
   }
   .amazon .info .text03 {
     display: block;
@@ -534,6 +544,7 @@
     margin: 0 auto 20px 8%;
     width: 90%;
   }
+  .amazon figure .text04 { width: 100%; }
   .amazon .info .text03 { margin: 15px auto 0; width: 100%; }
   .amazon .info p { font-size: 14px; line-height: 26px; margin-bottom: 17px; }
   .steps { border-radius: 10px; margin: 19px auto 0; padding: 30px 15px 20px;  width: 90%; }

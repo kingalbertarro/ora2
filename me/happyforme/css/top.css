@@ -688,7 +688,9 @@
     float: none;
     margin: 0 auto 20px 8%;
     width: 90%;
-}
+  }
+  .amazon figure .text04 { width: 100%; }
+  .amazon figure img { width: 100%; }
   .amazon .info .text03-sp { margin-top: 0; width: 100%;}
   .amazon .info p { font-size: 14px; line-height: 26px; margin-bottom: 17px;}
   .media { padding: 60px 0 40px; }
