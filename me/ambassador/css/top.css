@@ -600,6 +600,33 @@
     font-size: 12px;
     line-height: 19px;
   }
+  .ambassador .wrapper .slider-wrap .slick-slide span {
+    display: block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+  }
+  .ambassador .wrapper .slider-wrap .slick-slide span::after {
+    background-color: rgba(0,0,0, 0.3);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: .3s;
+    height: 100%;
+    width: 100%;
+  }
+  .ambassador .wrapper .slider-wrap .slick-active span::after {
+    background-color: rgba(0,0,0,0);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
   .campaign {
     background-image: url(../images/bg03_sp.png);
     background-position: top center;
