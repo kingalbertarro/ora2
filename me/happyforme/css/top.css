@@ -246,6 +246,11 @@
     background-image: url(../images/bg.png);
     padding: 59px 0 79px;
   }
+  .slider-wrap {
+    display: block;
+    margin: 0 auto;
+    width: 603px;
+  }
   .campaign .figure03 { display: block; margin: 0 auto 24px; width: 603px; }
   .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }

@@ -7,7 +7,7 @@ $(function(){
 });
 window.onpageshow = function(event) {
 	if (event.persisted) {
-	    window.location.reload() 
+	    window.location.reload()
 	}
 };
 $(document).ready(function() {
@@ -20,7 +20,7 @@ $(document).ready(function() {
 			topBtn.fadeOut();
 		}
 	});
-	
+
 	topBtn.click(function () {
 		$('body,html').animate({
 				scrollTop: 0
@@ -45,6 +45,69 @@ $(function() {
   });
 });
 
+// $(function() {
+//   $('.box04 span').matchHeight();
+// });
+//
+// jQuery(function($){
+// return;
+// 	var duration = 3000;
+// 	var status = 1;
+// 	var timer = setInterval(slider, duration);
+// 	$(window).on('focus', function(){
+// 		status = 1;
+// 	});
+// 	$(window).on('blur', function(){
+// 		status = 0;
+// 	});
+//
+// 	sliderInit();
+// 	function sliderInit() {
+// 		$('.slider').each(function(){
+// 			// 情報取得
+// 			var _this = this;
+// 			var index = 0;
+// 			var total = $('img', this).length;
+// 			$('img', this).hide();
+// 			$('img:eq(0)', this).show();
+// 			$(this).data('index', index);
+// 			$(this).data('total', total);
+// 			$('img:eq(0)', this).on('load', function(){
+// 				$(_this).width($(this).width());
+// 				$(_this).height($(this).height());
+// 				$(_this).css('magin-left', 'auto');
+// 				$(_this).css('magin-right', 'auto');
+// 				$(_this).css('position', 'relative');
+// 				$('img', _this).css('position', 'absolute');
+// 			});
+// 		});
+// 	}
+// 	function slider() {
+// 		if (status) {
+// 			$('.slider').each(function(){
+// 				var oldIndex = $(this).data('index') * 1;
+// 				var total = $(this).data('total') * 1;
+// 				var index = (oldIndex + 1) % total;
+// 				$(this).data('index', index);
+// 				$('img:eq(' + oldIndex + ')', this).fadeOut();
+// 				$('img:eq(' + index + ')', this).fadeIn();
+// 			});
+// 		}
+// 	}
+// });
+
 $(function() {
-  $('.box04 span').matchHeight();
+$('#slick').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: true,
+		autoplay: true,
+		speed: 500,
+		autoplaySpeed: 5000,
+		 // cssEase: 'linear',
+		dots: false,
+		variableWidth: true,
+		nextArrow: $('.next'),
+		prevArrow: $('.prev')
+});
 });
