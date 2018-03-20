@@ -421,8 +421,18 @@
     padding-left: 1em;
 
   }
-  .terms .texts p span:before  {
+  .terms .texts p span.dot:before  {
     content: '・';
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  .terms .texts p span.triangle  {
+    margin-left: 1.5em;
+    padding-left: 1.4em;
+  }
+  .terms .texts p span.triangle:before  {
+    content: '▼';
     left: 0;
     position: absolute;
     top: 0;
