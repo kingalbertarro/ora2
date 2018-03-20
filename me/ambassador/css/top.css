@@ -606,6 +606,7 @@
     display: block;
     position: relative;
     height: 200px;
+    margin-bottom: 12px;
     width: 200px;
   }
   .ambassador .wrapper .slider-wrap .slick-slide span::after {
