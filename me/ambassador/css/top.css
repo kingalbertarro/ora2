@@ -181,11 +181,13 @@
     display: block;
     position: relative;
   }
+  .ambassador .wrapper .slider-wrap .slick-list { outline: none !important; }
   .ambassador .wrapper .slider-wrap .slick-slider  {
     width: 756px;
   }
   .ambassador .wrapper .slider-wrap .slick-slide {
     margin: 0 20px 0 0;
+    outline: none;
     width: 238px;
   }
   .ambassador .wrapper .slider-wrap .slick-slide img {
