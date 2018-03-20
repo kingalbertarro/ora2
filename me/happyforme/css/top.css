@@ -689,7 +689,7 @@
   .campaign .text02 { margin: 0 auto 25px; width: 100%; }
   .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
   .amazon { border-radius: 10px; padding: 20px 24px; width: 90%; }
-  .amazon .info { width: 100%; }
+  .amazon .info { margin-top: 0; width: 100%; }
   .amazon figure {
     float: none;
     margin: 0 auto 20px 8%;
