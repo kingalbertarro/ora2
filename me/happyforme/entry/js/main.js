@@ -48,3 +48,74 @@ $(function() {
 $(function() {
   $('.box04 span').matchHeight();
 });
+
+// スライダー
+jQuery(function($){
+	// 初期設定
+	var duration = 3000; // [ミリ秒]
+	var status = 1;
+	
+	// イベント登録
+	var timer = setInterval(changeImage, duration);
+	$(window).on('focus', function(){
+		status = 1;
+		setHeight();
+	});
+	$(window).on('blur', function(){
+		status = 0;
+	});
+	$(window).on('resize', function(){
+		setHeight();
+	});
+	
+	// 初期動作
+	$('.slider').each(function(){
+		// 情報取得
+		var _this = this;
+		var index = 0;
+		var total = $('img', this).length;
+		$(this).data('index', index);
+		$(this).data('total', total);
+		
+		// CSS調整
+		$('img', this).hide();
+		$('img', this).css('z-index', 0);
+		$('img:eq(0)', this).show();
+		$('img:eq(0)', this).css('z-index', 1);
+		$('img:eq(0)', this).on('load', function(){
+			setHeight();
+		});
+	});
+	
+	// 画像切り替え
+	function changeImage() {
+		if (status) {
+			$('.slider').each(function(){
+				var _this = this;
+				var oldIndex = $(this).data('index') * 1;
+				var total = $(this).data('total') * 1;
+				var index = (oldIndex + 1) % total;
+				$(this).data('index', index);
+				$('img:eq(' + index + ')', this).show();
+				$('img:eq(' + oldIndex + ')', this).fadeOut(function(){
+					$('img:eq(' + index + ')', _this).css('z-index', 1);
+					$('img:eq(' + oldIndex + ')', _this).css('z-index', 0);
+				});
+			});
+		}
+	}
+	
+	// 高さ調整
+	function setHeight() {
+		$('.slider').each(function(){
+			var height = 0;
+			$('img', this).each(function(){
+				var h = $(this).height() * 1;
+				if (h > height) {
+					height = h;
+				}
+			});
+			$(this).height(height);
+		});
+	}
+});
