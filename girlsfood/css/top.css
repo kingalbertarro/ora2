@@ -430,12 +430,18 @@
 @media all and (min-width: 768px) {
   .visual {
     position: relative;
-    max-width: 1600px;
+    max-width: 100%;
     min-width: 1200px;
     margin: 0 auto 0;
   }
   .visual img {
     width: 100%;
+  }
+  .visual .cover {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+    min-width: 1200px;
   }
   .boxTxt {
     position: absolute;
