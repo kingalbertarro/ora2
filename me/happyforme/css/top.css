@@ -249,11 +249,11 @@
 .slider{	text-align: center;}
 .slider img{    position: relative;}
   .campaign .slider { display: block; margin: 0 auto 24px; width: 603px; height: auto; position: relative;}
-  .campaign .figure03 { position: absolute; left: 0; top: 0; }
+  .campaign .figure03 { position: absolute; left: 0; top: 0; display: none;}
   .campaign .title {  display: block; margin: 0 auto 23px; width: 302px; }
   .campaign .title img { display: block; width: 100%; }
   .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
-  .campaign .figure01 { display: block; margin: 0 auto 8px; width: 186px; }
+  .campaign .figure01 { display: block; margin: 0 auto 8px; width: 300px; }
   .campaign .text02 { display: block; margin: 0 auto 32px; width: 507px; }
   .campaign  a {
     background-color: #da607c;
@@ -683,9 +683,9 @@
   }
   .campaign .title { margin: 0 auto 18px; width: 70%; }
   .campaign .slider { margin: 0 auto 16px; width: 100%; position: relative;}
-  .campaign .figure03 { position: absolute; left: 0; top: 0; width: 100%;}
+  .campaign .figure03 { position: absolute; left: 0; top: 0; width: 100%; display: none;}
   .campaign .text01 { width: 100%; }
-  .campaign .figure01 { margin: 0 auto 5px; width: 32%; }
+  .campaign .figure01 { margin: 0 auto 5px; width: 65.34%; }
   .campaign .text02 { margin: 0 auto 25px; width: 100%; }
   .campaign .figure02-sp { margin-bottom: 20px; width: 100%; }
   .amazon { border-radius: 10px; padding: 20px 24px; width: 90%; }

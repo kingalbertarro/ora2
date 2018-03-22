@@ -67,6 +67,13 @@ jQuery(function($){
 	$(window).on('resize', function(){
 		setHeight();
 	});
+	setInterval(function(){
+		setHeight();
+	}, 300);
+	$('.slider img').on('load', function(){
+		setHeight();
+	});
+	setHeight();
 	
 	// 初期動作
 	$('.slider').each(function(){
@@ -115,7 +122,9 @@ jQuery(function($){
 					height = h;
 				}
 			});
-			$(this).height(height);
+			if (height) {
+				$(this).height(height);
+			}
 		});
 	}
 });
