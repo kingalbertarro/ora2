@@ -7,7 +7,7 @@ $(function(){
 });
 window.onpageshow = function(event) {
 	if (event.persisted) {
-	    window.location.reload() 
+	    window.location.reload()
 	}
 };
 $(document).ready(function() {
@@ -20,7 +20,7 @@ $(document).ready(function() {
 			topBtn.fadeOut();
 		}
 	});
-	
+
 	topBtn.click(function () {
 		$('body,html').animate({
 				scrollTop: 0
@@ -54,7 +54,7 @@ jQuery(function($){
 	// 初期設定
 	var duration = 3000; // [ミリ秒]
 	var status = 1;
-	
+
 	// イベント登録
 	var timer = setInterval(changeImage, duration);
 	$(window).on('focus', function(){
@@ -74,7 +74,7 @@ jQuery(function($){
 		setHeight();
 	});
 	setHeight();
-	
+
 	// 初期動作
 	$('.slider').each(function(){
 		// 情報取得
@@ -83,7 +83,7 @@ jQuery(function($){
 		var total = $('img', this).length;
 		$(this).data('index', index);
 		$(this).data('total', total);
-		
+
 		// CSS調整
 		$('img', this).hide();
 		$('img', this).css('z-index', 0);
@@ -93,7 +93,7 @@ jQuery(function($){
 			setHeight();
 		});
 	});
-	
+
 	// 画像切り替え
 	function changeImage() {
 		if (status) {
@@ -104,14 +104,14 @@ jQuery(function($){
 				var index = (oldIndex + 1) % total;
 				$(this).data('index', index);
 				$('img:eq(' + index + ')', this).show();
-				$('img:eq(' + oldIndex + ')', this).fadeOut(function(){
+				$('img:eq(' + oldIndex + ')', this).fadeIn(function(){
 					$('img:eq(' + index + ')', _this).css('z-index', 1);
 					$('img:eq(' + oldIndex + ')', _this).css('z-index', 0);
 				});
 			});
 		}
 	}
-	
+
 	// 高さ調整
 	function setHeight() {
 		$('.slider').each(function(){
