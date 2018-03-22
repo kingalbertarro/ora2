@@ -52,7 +52,7 @@ $(function() {
 // スライダー
 jQuery(function($){
 	// 初期設定
-	var duration = 3000; // [ミリ秒]
+	var duration = 1000; // [ミリ秒]
 	var status = 1;
 
 	// イベント登録
