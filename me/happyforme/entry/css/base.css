@@ -502,7 +502,7 @@ figure { margin: 0; padding: 0; }
 
 /*--------- footer ---------*/
 #main {
-  background: url(../../../../images/bg_footer01_sp.png) repeat-x 0 bottom / 100% auto;
+  background: url(http://jp.ora2.com/images/bg_footer01_sp.png) repeat-x 0 bottom / 100% auto;
   padding-bottom: 44vw;
 }
 #footer .footer01 {
@@ -542,7 +542,7 @@ figure { margin: 0; padding: 0; }
   padding: 0 16px;
 }
 .fLink li a {
-  background: url(../../../../images/arrow01.png) no-repeat 98% center;
+  background: url(http://jp.ora2.com/images/arrow01.png) no-repeat 98% center;
   background-size: 22px 6px;
   color: #00276f;
   text-decoration: none;
@@ -579,7 +579,7 @@ figure { margin: 0; padding: 0; }
   padding: 5px 20px 5px 0;
 }
 #footer .fTxt {
-  background: url(../../../../images/icon_flag_sp.jpg) no-repeat 0 0;
+  background: url(http://jp.ora2.com/images/icon_flag_sp.jpg) no-repeat 0 0;
   background-size: 27px 18px;
   padding: 2px 0 3px 40px;
 }
@@ -596,7 +596,7 @@ figure { margin: 0; padding: 0; }
 }
 @media all and (min-width: 768px) {
   #main {
-    background: url(../../../../images/bg_footer01_pc.png) repeat-x 0 bottom;
+    background: url(http://jp.ora2.com/images/bg_footer01_pc.png) repeat-x 0 bottom;
     padding-bottom: 295px;
     min-width: 1200px;
   }
@@ -636,7 +636,7 @@ figure { margin: 0; padding: 0; }
     position: relative;
   }
   #footer .fTxt {
-    background: url(../../../../images/icon_flag.jpg) no-repeat 0 0 / 30px 20px;
+    background: url(http://jp.ora2.com/images/icon_flag.jpg) no-repeat 0 0 / 30px 20px;
     position: absolute;
     right: 45px;
     bottom: 4px;

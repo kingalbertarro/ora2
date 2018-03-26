@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>投票システムJSサンプル</title>
+<meta charset="utf-8">
+<meta name="author" content="Tsue Shogo">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="container">
+	<div class="well">
+		<h1>投票システムJSサンプル</h1>
+		<div class="text-right">2018年3月5日(月)</div>
+		<div class="text-right">Tsue Shogo</div>
+		<div class="text-right">s_tsue@webinlet.com</div>
+	</div>
+	<h2 class="page-header">1. 設置</h2>
+	<p>js/vote.jsをjqueryよりも後にロードさせる。</p>
+	例
+	<pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="/path/to/vote/js/vote.js"&gt;&lt;/script&gt;
+</pre>
+	<p>js/vote.jsの冒頭のappPathをindex.phpが置いてあるディレクトリまでのルートパスに書き換える。</p>
+	例
+	<pre>var appPath = '/vote/';</pre>
+	<h2 class="page-header">2. 使い方</h2>
+	<h3>2-1. 投票idを決める</h3>
+	<p>例として「魚は美味しい？」という投票を設置してみる。idは「fish」とする。</p>
+	<h3>2-2. 投票ボタンを設置する</h3>
+	<p>例として「美味しい」「マズい」という2つの選択肢を設置する。</p>
+	<p>ボタンは&lt;a/&gt;でも&lt;button/&gt;でも&lt;label/&gt;でも何でもよいが<strong>classにvote-btn</strong>を付ける。</p>
+	<p>
+		また、選択肢1(美味しい)のボタンには<strong>data-voteid="fish" data-votetype="good"</strong>を、
+		選択肢2(マズい)のボタンには<strong>data-voteid="fish" data-votetype="bad"</strong>を付ける。
+	</p>
+	<p>
+		ここで「fish」は先ほど決めた投票id。「good」は選択肢1、「bad」は選択肢2を表す固定文字列で他の文字では動作しない。
+	</p>
+	例
+	<pre>&lt;button type="button" class="btn btn-success <strong style="color: red;">vote-btn</strong>" <strong style="color: red;">data-voteid="fish" data-votetype="good"</strong>&gt;美味しい&lt;/button&gt;
+&lt;button type="button" class="btn btn-warning <strong style="color: red;">vote-btn</strong>" <strong style="color: red;">data-voteid="fish" data-votetype="bad"</strong>&gt;マズい&lt;/button&gt;</pre>
+<button type="button" class="btn btn-success">美味しい</button>
+<button type="button" class="btn btn-warning">マズい</button>
+	<h3>2-3. 帯グラフを設置</h3>
+	<p>jsが行う動作は<strong>「対象となる投票idのvote-barのwidthに投票率を代入する」</strong>ことだけであるから、自由度の高いコーディングが可能。</p>
+	<p>
+		例としてbar-wrapの中にbarを入れる帯グラフを考える。
+		bar-wrapには予め選択肢2(マズい)用の背景色を付けておき、その中にあるbarが選択肢1(美味しい)用の背景色を付ける。
+		barのwidthを0%～100%に設定することで帯グラフを表現する。
+	</p>
+	<p>barは&lt;div/&gt;でも&lt;p/&gt;でも何でもよいが<strong>classにvote-bar</strong>を付け、<strong>data-voteid="fish"</strong>を付ける。</p>
+	<pre>&lt;div class="bar-wrap"&gt;
+  &lt;div <strong style="color: red;">class="vote-bar" data-voteid="fish"</strong>&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+	<p>これに背景色などの情報を加える。</p>
+	例
+	<pre>&lt;div class="bar-wrap" <strong style="color: red;">style="background-color: #f0ad4e;height: 15px;"</strong>&gt;
+  &lt;div class="vote-bar" data-voteid="fish" <strong style="color: red;">style="background-color: #449d44;height: 15px;"</strong>&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+	<p>※例としてstyle属性に直接CSSを書いたが、もちろん別途ファイルに記載してもよい。またHTMLの構造もこれに限らなくてもよい。</p>
+	<p>投票率によって以下の様に表示されることになる。</p>
+	<p>0%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div style="background-color: #449d44;height: 15px;width: 0%;"></div></div>
+	<p>10%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 10%;"></div></div>
+	<p>20%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 20%;"></div></div>
+	<p>30%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 30%;"></div></div>
+	<p>40%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 40%;"></div></div>
+	<p>50%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 50%;"></div></div>
+	<p>60%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 60%;"></div></div>
+	<p>70%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 70%;"></div></div>
+	<p>80%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 80%;"></div></div>
+	<p>90%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 90%;"></div></div>
+	<p>100%</p><div class="bar-wrap" style="background-color: #f0ad4e;height: 15px;"><div data-voteid="fish" style="background-color: #449d44;height: 15px;width: 100%;"></div></div>
+	<h3>2-4. 投票率を設置</h3>
+	<p>投票率を数値として取り出したい場合、それを表示させたい要素を予め用意しておくことで実現可能。</p>
+	<p>要素は&lt;div/&gt;でも&lt;span/&gt;でも&lt;label/&gt;でも何でもよいが<strong>classにvote-percent</strong>を付ける。</p>
+	<p>
+		また、選択肢1(美味しい)の投票率には<strong>data-voteid="fish" data-votetype="good"</strong>を、
+		選択肢2(マズい)の投票率には<strong>data-voteid="fish" data-votetype="bad"</strong>を付ける。
+	</p>
+	<p>
+		ここで「fish」は投票id。「good」は選択肢1、「bad」は選択肢2を表す固定文字列で他の文字では動作しない。
+	</p>
+	例
+	<pre>&lt;p&gt;現在の投票率&lt;/p&gt;
+&lt;p&gt;美味しい！&lt;span class="vote-percent" data-voteid="fish" data-votetype="good"&gt;&lt;/span&gt;％&lt;/p&gt;
+&lt;p&gt;マズい！&lt;span class="vote-percent" data-voteid="fish" data-votetype="bad"&gt;&lt;/span&gt;％&lt;/p&gt;</pre>
+	<h3>2-5. 投票数を設置</h3>
+	<p>投票数を数値として取り出したい場合、それを表示させたい要素を予め用意しておくことで実現可能。</p>
+	<p>要素は&lt;div/&gt;でも&lt;span/&gt;でも&lt;label/&gt;でも何でもよいが<strong>classにvote-count</strong>を付ける。</p>
+	<p>
+		また、選択肢1(美味しい)の投票率には<strong>data-voteid="fish" data-votetype="good"</strong>を、
+		選択肢2(マズい)の投票率には<strong>data-voteid="fish" data-votetype="bad"</strong>を付ける。
+	</p>
+	<p>
+		ここで「fish」は投票id。「good」は選択肢1、「bad」は選択肢2を表す固定文字列で他の文字では動作しない。
+	</p>
+	例
+	<pre>&lt;p&gt;現在の投票数&lt;/p&gt;
+&lt;p&gt;美味しい！&lt;span class="vote-count" data-voteid="fish" data-votetype="good"&gt;&lt;/span&gt;票&lt;/p&gt;
+&lt;p&gt;マズい！&lt;span class="vote-count" data-voteid="fish" data-votetype="bad"&gt;&lt;/span&gt;票&lt;/p&gt;</pre>
+	<h2>3. 動作サンプル</h2>
+	<p>Q1. 魚って美味しい？</p>
+	<div class="row">
+		<div class="col-xs-3">
+			<div class="pull-right">
+				<button type="button" class="btn btn-success vote-btn" data-voteid="fish" data-votetype="good" data-voteipignore="1">美味しい</button>
+				<p>投票率 : <span class="vote-percent" data-voteid="fish" data-votetype="good"></span>％</p>
+				<p>投票数 : <span class="vote-count" data-voteid="fish" data-votetype="good"></span>票</p>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="bar-wrap" style="background-color: #f0ad4e;height: 30px;">
+				<div class="vote-bar" data-voteid="fish" style="background-color: #449d44;height: 30px;"></div>
+			</div>
+		</div>
+		<div class="col-xs-3">
+			<div class="pull-left">
+				<button type="button" class="btn btn-warning vote-btn" data-voteid="fish" data-votetype="bad" data-voteipignore="1">マズい</button>
+				<p>投票率 : <span class="vote-percent" data-voteid="fish" data-votetype="bad"></span>％</p>
+				<p>投票数 : <span class="vote-count" data-voteid="fish" data-votetype="bad"></span>票</p>
+			</div>
+		</div>
+	</div>
+	<p>Q2. 肉って美味しい？</p>
+	<div class="row">
+		<div class="col-xs-3">
+			<div class="pull-right">
+				<button type="button" class="btn btn-success vote-btn" data-voteid="meat" data-votetype="good" data-voteipignore="1">美味しい</button>
+				<p>投票率 : <span class="vote-percent" data-voteid="meat" data-votetype="good"></span>％</p>
+				<p>投票数 : <span class="vote-count" data-voteid="meat" data-votetype="good"></span>票</p>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="bar-wrap" style="background-color: #f0ad4e;height: 30px;">
+				<div class="vote-bar" data-voteid="meat" style="background-color: #449d44;height: 30px;"></div>
+			</div>
+		</div>
+		<div class="col-xs-3">
+			<div class="pull-left">
+				<button type="button" class="btn btn-warning vote-btn" data-voteid="meat" data-votetype="bad" data-voteipignore="1">マズい</button>
+				<p>投票率 : <span class="vote-percent" data-voteid="meat" data-votetype="bad"></span>％</p>
+				<p>投票数 : <span class="vote-count" data-voteid="meat" data-votetype="bad"></span>票</p>
+			</div>
+		</div>
+	</div>
+	<h2>4. その他</h2>
+	<p>重複投稿を避けるために同一IPアドレスからは1時間に1回しか投票できない。ただし、ボタンにdata-voteipignore="1"を付けるとIP制限を行わない。</p>
+	<p>vote/data以下には書き込みパーミッションを追加。</p>
+	<p>vote/data/vote.sqlite3を削除すれば投票内容を全てクリアできる。個別にクリアすることはできない。</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/vote.js"></script>
+</body>
+</html>
