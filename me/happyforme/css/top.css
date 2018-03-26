@@ -382,7 +382,7 @@
   }
   .media .ad-banner {
     display: block;
-    margin: 129px auto;
+    margin: 129px auto 0;
     position: relative;
   }
   .media .ad-banner img {
