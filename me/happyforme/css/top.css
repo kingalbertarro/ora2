@@ -255,7 +255,8 @@
   .campaign .text01 { display: block; margin:  0 auto 16px; width: 493px; }
   .campaign .figure01 { display: block; margin: 0 auto 8px; width: 300px; }
   .campaign .text02 { display: block; margin: 0 auto 32px; width: 507px; }
-  .campaign  a {
+  .campaign a { text-decoration: none; }
+  .campaign  a.btn {
     background-color: #da607c;
     background-image: url(../images/btn_next_white.png);
     background-position: 95% center;
@@ -266,7 +267,7 @@
     display: block;
     font-size: 16px;
     line-height: 16px;
-    margin: 77px auto 0;
+    margin: 77px auto 26px;
     padding: 20px;
     z-index: 100;
     text-align: center;
@@ -320,6 +321,19 @@
     display: block;
     margin: 0 auto;
     width: 489px;
+  }
+  .campaign span.contact-sec {
+    color: #00276f;
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: 550px;
+  }
+  .campaign span.contact-sec img {
+    margin: 3px 0 0 7px;
   }
   .media {
     padding: 58px 0 0;
@@ -678,7 +692,7 @@
   .campaign a {
     font-size: 16px;
     line-height: 16px;
-    margin: 37.5px auto 0;
+    margin: 37.5px auto 15px;
     width: 80%;
   }
   .campaign .title { margin: 0 auto 18px; width: 70%; }
@@ -699,6 +713,14 @@
   .amazon figure img { width: 100%; }
   .amazon .info .text03-sp { margin-top: 0; width: 100%;}
   .amazon .info p { font-size: 14px; line-height: 26px; margin-bottom: 17px;}
+  .campaign span.contact-sec {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    width: 70%;
+  }
+  .campaign span.contact-sec img { margin: 5px 0 0 7px; }
   .media { padding: 60px 0 40px; }
   .media .tvcm-desc { font-size: 14px; line-height: 24px; margin: 25px auto 0; text-align: left; width: 80%; }
   .media .vid-gal { margin-top: 0px; }
