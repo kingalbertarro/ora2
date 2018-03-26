@@ -282,7 +282,7 @@
   .tvcm {
     display: block;
     margin: 0;
-    padding: 75px 0 30px;
+    padding: 75px 0 0;
     position: relative;
   }
   .tvcm .title {
@@ -381,7 +381,7 @@
   }
   .ad-banner {
     display: block;
-    margin: 129px auto;
+    margin: 42px auto -15px;
     position: relative;
   }
  .ad-banner img {
@@ -389,6 +389,7 @@
     margin: 0 auto;
     width: 1200px;
   }
+  .ad-banner img:hover { opacity: .8; }
   .ad-info  {
     background-image: url('../images/bg05.png');
     background-position: bottom center;
@@ -838,6 +839,7 @@
   .tvcm .media .coming-soon { width: 80%; }
   .ad-info .ad-banner { width: 80%; }
   .ad-info a.btn { bottom: 10px; }
+  .ad-banner img { width: 95%; }
   .youtube-wrapper .content { width: 85%; }
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {
