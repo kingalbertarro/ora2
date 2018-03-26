@@ -335,6 +335,7 @@
   .campaign span.contact-sec img {
     margin: 3px 0 0 7px;
   }
+  .campaign span.contact-sec:hover { opacity: .7; }
   .media {
     padding: 58px 0 0;
   }
