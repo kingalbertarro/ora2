@@ -380,6 +380,17 @@
     margin: 38px 236px 0 auto;
     width: 294px;
   }
+  .media .ad-banner {
+    display: block;
+    margin: 129px auto;
+    position: relative;
+  }
+  .media .ad-banner img {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .media .ad-banner img:hover { opacity: .8; }
   .media .ad-info-wrap {
     background-image: url('../images/bg_03.png');
     background-position: bottom center;
@@ -734,6 +745,8 @@
   .media .vid-gal .video-wrapper .coming-soon { width: 80%; }
   .media .vid-gal .neko { margin: -10px auto 0 18%; width: 70%; }
   .media .ad-info-wrap { margin-top: -15px; }
+  .media .ad-banner { margin: 55px auto 50px;}
+  .media .ad-banner img { width: 100%; }
   .media .ad-info {
     display: block;
     margin: 55px auto 50px;
@@ -854,6 +867,7 @@
   position: relative;
   width: 90%;
   }
+  .media .ad-banner img { width: 95%; }
   .youtube-wrapper .content { width: 85%; }
 }
 @media all and (min-width: 768px) and (max-width: 1000px) {

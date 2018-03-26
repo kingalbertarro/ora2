@@ -236,13 +236,13 @@
   }
   .campaign .figure04 {
     display: block;
-    margin: 0 auto 16px;
+    margin: 0 auto;
     width: 437px;
   }
   .campaign .text04 {
     display: block;
-    margin: 0 auto 38px;
-    width: 535px;
+    margin: -17px auto 50px;
+    width: 729px;
   }
   .campaign p {
     color: #00276f;
@@ -378,6 +378,16 @@
   }
   .youtube-wrapper .close-btn:after {
     transform: rotate(-45deg);
+  }
+  .ad-banner {
+    display: block;
+    margin: 129px auto;
+    position: relative;
+  }
+ .ad-banner img {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
   }
   .ad-info  {
     background-image: url('../images/bg05.png');
@@ -653,12 +663,12 @@
   }
   .campaign .figure04 {
     display: block;
-    margin: 0 auto 19px;
+    margin: 0 auto;
     width: 100%;
   }
   .campaign .text04 {
     display: block;
-    margin: 0 auto 30px;
+    margin: -2px auto 42px;
     width: 100%;
   }
   .campaign p {
@@ -684,7 +694,7 @@
     text-decoration: none;
     width: 300px;
   }
-  .tvcm { padding: 41px 0 19px; }
+  .tvcm { padding: 41px 0 0px; }
   .tvcm .description {
     color: #00276f;
     font-size: 13px;
@@ -712,6 +722,8 @@
     margin-top: 64px;
     margin-bottom: 20px;
   }
+  .ad-banner { margin: 32px auto 50px;}
+  .ad-banner img { width: 100%; }
   .ad-info {
     background-image: url(../images/bg05_sp.png);
     background-position: bottom center;
