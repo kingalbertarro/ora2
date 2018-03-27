@@ -381,6 +381,9 @@
     width: 294px;
   }
   .media .ad-banner {
+    background-image: url('../images/bg_03.png');
+    background-position: center;
+    background-size: 100% 100%;
     display: block;
     margin: 129px auto 0;
     position: relative;
