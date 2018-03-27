@@ -380,6 +380,9 @@
     transform: rotate(-45deg);
   }
   .ad-banner {
+    background-image: url('../images/bg05-tile.png');
+    background-position: top left;
+    background-repeat: repeat;
     display: block;
     margin: 42px auto -15px;
     position: relative;
@@ -723,7 +726,7 @@
     margin-top: 64px;
     margin-bottom: 20px;
   }
-  .ad-banner { margin: 32px auto 50px;}
+  .ad-banner { background-image: url('../images/bg05-tile-sp.png'); margin: 32px auto 50px;}
   .ad-banner img { width: 100%; }
   .ad-info {
     background-image: url(../images/bg05_sp.png);
