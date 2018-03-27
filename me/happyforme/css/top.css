@@ -361,7 +361,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    cursor: pointer;
     display: block;
     height: 618px;
     margin: 0 auto;
@@ -369,6 +368,7 @@
     width: 925px;
   }
   .media .vid-gal .video-wrapper .coming-soon {
+    cursor: pointer;
     display: block;
     margin: 0 auto;
     transition: .3s;
@@ -748,7 +748,7 @@
   .media .vid-gal .video-wrapper .coming-soon { width: 80%; }
   .media .vid-gal .neko { margin: -10px auto 0 18%; width: 70%; }
   .media .ad-info-wrap { margin-top: -15px; }
-  .media .ad-banner { margin: 55px auto 50px;}
+  .media .ad-banner { background-image: none; margin: 55px auto 50px;}
   .media .ad-banner img { width: 100%; }
   .media .ad-info {
     display: block;
